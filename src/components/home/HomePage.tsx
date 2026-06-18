@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom';
+import { Calendar, ArrowRight } from 'lucide-react';
 import { MODULE_LIST } from '@/lib/constants';
 import { useProgress } from '@/context/ProgressContext';
 import { getLevel, getXpForNextLevel } from '@/types/gamification';
@@ -12,6 +14,11 @@ export default function HomePage() {
   const { progress: xpProgress } = getXpForNextLevel(progress.xp);
   const today = todayStr();
   const isTodayDone = progress.lastActivityDate === today && progress.dailyGoalComplete;
+
+  // Count due flashcards
+  const dueCount = Object.values(progress.flashcards).filter(
+    (f) => f.nextReviewDate <= today,
+  ).length;
 
   return (
     <div className="max-w-2xl mx-auto px-4 py-6 space-y-6">
@@ -42,6 +49,27 @@ export default function HomePage() {
           </span>
         </div>
       </div>
+
+      {/* Due Today flashcard queue */}
+      {dueCount > 0 && (
+        <Link
+          to="/practice/due-today"
+          className="flex items-center gap-3 bg-orange-50 dark:bg-orange-900/20 border border-orange-200 dark:border-orange-800 rounded-2xl p-4 hover:shadow-md transition-all group"
+        >
+          <div className="flex-shrink-0 w-10 h-10 rounded-full bg-orange-100 dark:bg-orange-800/30 flex items-center justify-center">
+            <Calendar className="w-5 h-5 text-orange-600 dark:text-orange-400" />
+          </div>
+          <div className="flex-1">
+            <p className="text-sm font-semibold text-gray-900 dark:text-white">
+              {dueCount} {dueCount === 1 ? 'card' : 'cards'} due for review
+            </p>
+            <p className="text-xs text-gray-500 dark:text-gray-400">
+              Review now to keep your memory fresh
+            </p>
+          </div>
+          <ArrowRight className="w-4 h-4 text-orange-400 group-hover:translate-x-0.5 transition-transform" />
+        </Link>
+      )}
 
       {/* Module grid */}
       <div>

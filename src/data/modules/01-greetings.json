@@ -62,9 +62,9 @@
           "title": "Complete the Dialogue",
           "instructions": "Fill in the missing Czech words",
           "lines": [
-            { "czechBefore": "", "czechAfter": " den.", "english": "Good day.", "blanks": [{ "id": "b-1", "correctAnswer": "Dobrý" }] },
-            { "czechBefore": "", "czechAfter": " se máte?", "english": "How are you?", "blanks": [{ "id": "b-2", "correctAnswer": "Jak", "hint": "How..." }] },
-            { "czechBefore": "", "czechAfter": ", dobře.", "english": "Thank you, well.", "blanks": [{ "id": "b-3", "correctAnswer": "Děkuji", "acceptableAnswers": ["Díky"] }] },
+            { "czechBefore": "", "czechAfter": " den.", "english": "Good day.", "blanks": [{ "id": "b-1", "correctAnswer": "Dobrý", "choices": ["Dobrý", "Dobrou", "Hezký", "Pěkný"] }] },
+            { "czechBefore": "", "czechAfter": " se máte?", "english": "How are you?", "blanks": [{ "id": "b-2", "correctAnswer": "Jak", "hint": "How...", "choices": ["Jak", "Kde", "Co", "Kdo"] }] },
+            { "czechBefore": "", "czechAfter": ", dobře.", "english": "Thank you, well.", "blanks": [{ "id": "b-3", "correctAnswer": "Děkuji", "acceptableAnswers": ["Díky"], "choices": ["Děkuji", "Prosím", "Promiňte", "Dobrý"] }] },
             { "czechBefore": "Jmenuji", "czechAfter": " Petr.", "english": "My name is Petr.", "blanks": [{ "id": "b-4", "correctAnswer": "se" }] },
             { "czechBefore": "", "czechAfter": " mě.", "english": "Pleased to meet you.", "blanks": [{ "id": "b-5", "correctAnswer": "Těší" }] }
           ]
@@ -169,9 +169,9 @@
           "type": "fill-blanks",
           "title": "Complete the Dialogue",
           "lines": [
-            { "czechBefore": "", "czechAfter": " shledanou.", "english": "Goodbye.", "blanks": [{ "id": "b-1", "correctAnswer": "Na" }] },
+            { "czechBefore": "", "czechAfter": " shledanou.", "english": "Goodbye.", "blanks": [{ "id": "b-1", "correctAnswer": "Na", "choices": ["Na", "Do", "Za", "Pro"] }] },
             { "czechBefore": "Mějte se", "czechAfter": ".", "english": "Take care.", "blanks": [{ "id": "b-2", "correctAnswer": "hezky" }] },
-            { "czechBefore": "", "czechAfter": ", kde je východ?", "english": "Excuse me, where is the exit?", "blanks": [{ "id": "b-3", "correctAnswer": "Promiňte" }] },
+            { "czechBefore": "", "czechAfter": ", kde je východ?", "english": "Excuse me, where is the exit?", "blanks": [{ "id": "b-3", "correctAnswer": "Promiňte", "choices": ["Promiňte", "Prosím", "Děkuji", "Těší"] }] },
             { "czechBefore": "Děkuji.", "czechAfter": ".", "english": "Thank you. Bye.", "blanks": [{ "id": "b-4", "correctAnswer": "Nashle", "acceptableAnswers": ["Na shledanou"] }] }
           ]
         },

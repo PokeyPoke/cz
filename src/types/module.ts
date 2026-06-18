@@ -96,6 +96,8 @@ export interface Blank {
   correctAnswer: string;
   acceptableAnswers?: string[];
   hint?: string;
+  /** Optional multiple-choice options. When present, render as tap-to-select instead of text input. */
+  choices?: string[];
 }
 
 export interface FlashcardsSegment {

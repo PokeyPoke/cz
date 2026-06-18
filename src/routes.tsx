@@ -4,6 +4,7 @@ import HomePage from '@/components/home/HomePage';
 import ModulePage from '@/components/module/ModulePage';
 import LessonPage from '@/components/lesson/LessonPage';
 import FlashcardsPage from '@/components/practice/FlashcardsPage';
+import FlashcardQueuePage from '@/components/practice/FlashcardQueuePage';
 import QuizPage from '@/components/practice/QuizPage';
 import AchievementsPage from '@/components/achievements/AchievementsPage';
 import LeaderboardPage from '@/components/achievements/LeaderboardPage';
@@ -19,6 +20,7 @@ export const router = createBrowserRouter(
         { path: 'module/:moduleId', element: <ModulePage /> },
         { path: 'module/:moduleId/lesson/:lessonId', element: <LessonPage /> },
         { path: 'practice/flashcards', element: <FlashcardsPage /> },
+        { path: 'practice/due-today', element: <FlashcardQueuePage /> },
         { path: 'practice/quiz', element: <QuizPage /> },
         { path: 'achievements', element: <AchievementsPage /> },
         { path: 'leaderboard', element: <LeaderboardPage /> },

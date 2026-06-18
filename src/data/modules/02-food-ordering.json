@@ -62,11 +62,11 @@
           "type": "fill-blanks",
           "title": "Complete the Order",
           "lines": [
-            { "czechBefore": "Co si", "czechAfter": " k pití?", "english": "What would you like to drink?", "blanks": [{ "id": "b-1", "correctAnswer": "dáte" }] },
+            { "czechBefore": "Co si", "czechAfter": " k pití?", "english": "What would you like to drink?", "blanks": [{ "id": "b-1", "correctAnswer": "dáte", "choices": ["dáte", "máte", "chcete", "koupíte"] }] },
             { "czechBefore": "", "czechAfter": " si pivo.", "english": "I'll have a beer.", "blanks": [{ "id": "b-2", "correctAnswer": "Dám" }] },
-            { "czechBefore": "", "czechAfter": " nebo tmavé?", "english": "Light or dark?", "blanks": [{ "id": "b-3", "correctAnswer": "Světlé" }] },
+            { "czechBefore": "", "czechAfter": " nebo tmavé?", "english": "Light or dark?", "blanks": [{ "id": "b-3", "correctAnswer": "Světlé", "choices": ["Světlé", "Bílé", "Tmavé", "Červené"] }] },
             { "czechBefore": "To je", "czechAfter": ".", "english": "That's everything.", "blanks": [{ "id": "b-4", "correctAnswer": "všechno" }] },
-            { "czechBefore": "", "czechAfter": ", prosím.", "english": "The check, please.", "blanks": [{ "id": "b-5", "correctAnswer": "Zaplatím" }] }
+            { "czechBefore": "", "czechAfter": ", prosím.", "english": "The check, please.", "blanks": [{ "id": "b-5", "correctAnswer": "Zaplatím", "choices": ["Zaplatím", "Děkuji", "Objednám", "Potřebuji"] }] }
           ]
         },
         {

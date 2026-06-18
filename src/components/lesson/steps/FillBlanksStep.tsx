@@ -20,6 +20,11 @@ export default function FillBlanksStep({ segment, onComplete }: FillBlanksStepPr
     setAnswers((prev) => ({ ...prev, [blankId]: value }));
   };
 
+  const handleChoiceSelect = (blankId: string, value: string) => {
+    if (submitted) return;
+    setAnswers((prev) => ({ ...prev, [blankId]: value }));
+  };
+
   const checkAnswer = (blankId: string, correct: string, acceptable?: string[]) => {
     const answer = (answers[blankId] || '').trim().toLowerCase();
     const correctLower = correct.toLowerCase();
@@ -47,6 +52,84 @@ export default function FillBlanksStep({ segment, onComplete }: FillBlanksStepPr
     setResults({});
   };
 
+  const renderBlank = (blank: typeof allBlanks[0]) => {
+    const isMultipleChoice = blank.choices && blank.choices.length > 0;
+
+    if (isMultipleChoice) {
+      return (
+        <span key={blank.id} className="inline-flex items-center gap-1">
+          <span className="inline-flex flex-wrap gap-1">
+            {blank.choices!.map((choice) => {
+              const isSelected = answers[blank.id] === choice;
+              const isWrong = submitted && !results[blank.id] && isSelected;
+
+              return (
+                <button
+                  key={choice}
+                  onClick={() => handleChoiceSelect(blank.id, choice)}
+                  disabled={submitted}
+                  className={cn(
+                    'px-2 py-0.5 rounded-lg text-xs font-medium border transition-all',
+                    submitted
+                      ? choice === blank.correctAnswer
+                        ? 'bg-green-100 border-green-400 text-green-700 dark:bg-green-900/30 dark:border-green-600 dark:text-green-400'
+                        : isWrong
+                        ? 'bg-red-100 border-red-400 text-red-600 dark:bg-red-900/30 dark:border-red-600 dark:text-red-400'
+                        : 'bg-gray-50 border-gray-200 text-gray-400 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-500'
+                      : isSelected
+                      ? 'bg-primary-100 border-primary-400 text-primary-700 dark:bg-primary-900/30 dark:border-primary-500 dark:text-primary-300'
+                      : 'bg-gray-50 border-gray-200 text-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-gray-300 hover:border-primary-300 dark:hover:border-primary-600 cursor-pointer',
+                  )}
+                >
+                  {choice}
+                </button>
+              );
+            })}
+          </span>
+          {submitted && (
+            <span className="ml-1">
+              {results[blank.id] ? (
+                <Check className="w-3.5 h-3.5 text-green-500" />
+              ) : (
+                <X className="w-3.5 h-3.5 text-red-400" />
+              )}
+            </span>
+          )}
+        </span>
+      );
+    }
+
+    // Text input variant (original behavior)
+    return (
+      <span key={blank.id} className="inline-flex items-center gap-1">
+        <input
+          type="text"
+          value={answers[blank.id] || ''}
+          onChange={(e) => handleChange(blank.id, e.target.value)}
+          disabled={submitted}
+          placeholder={blank.hint || '...'}
+          className={cn(
+            'w-24 sm:w-32 px-2 py-0.5 border-b-2 bg-transparent text-center text-sm focus:outline-none transition-colors',
+            submitted
+              ? results[blank.id]
+                ? 'border-green-500 text-green-600'
+                : 'border-red-400 text-red-500'
+              : 'border-primary-300 dark:border-primary-700 focus:border-primary-500',
+          )}
+        />
+        {submitted && (
+          <span>
+            {results[blank.id] ? (
+              <Check className="w-3.5 h-3.5 text-green-500" />
+            ) : (
+              <X className="w-3.5 h-3.5 text-red-400" />
+            )}
+          </span>
+        )}
+      </span>
+    );
+  };
+
   return (
     <div className="space-y-4">
       <div className="text-center">
@@ -67,36 +150,9 @@ export default function FillBlanksStep({ segment, onComplete }: FillBlanksStepPr
             <p className="text-sm text-gray-500 dark:text-gray-400 mb-2 italic">
               {line.english}
             </p>
-            <p className="text-base font-medium text-gray-900 dark:text-white">
+            <p className="text-base font-medium text-gray-900 dark:text-white leading-relaxed">
               {line.czechBefore}{' '}
-              {line.blanks.map((blank) => (
-                <span key={blank.id} className="inline-flex items-center gap-1">
-                  <input
-                    type="text"
-                    value={answers[blank.id] || ''}
-                    onChange={(e) => handleChange(blank.id, e.target.value)}
-                    disabled={submitted}
-                    placeholder={blank.hint || '...'}
-                    className={cn(
-                      'w-24 sm:w-32 px-2 py-0.5 border-b-2 bg-transparent text-center text-sm focus:outline-none transition-colors',
-                      submitted
-                        ? results[blank.id]
-                          ? 'border-green-500 text-green-600'
-                          : 'border-red-400 text-red-500'
-                        : 'border-primary-300 dark:border-primary-700 focus:border-primary-500',
-                    )}
-                  />
-                  {submitted && (
-                    <span>
-                      {results[blank.id] ? (
-                        <Check className="w-3.5 h-3.5 text-green-500" />
-                      ) : (
-                        <X className="w-3.5 h-3.5 text-red-400" />
-                      )}
-                    </span>
-                  )}
-                </span>
-              ))}{' '}
+              {line.blanks.map((blank) => renderBlank(blank))}{' '}
               {line.czechAfter}
             </p>
             {/* Show correct answers after submission */}

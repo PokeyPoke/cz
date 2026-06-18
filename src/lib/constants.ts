@@ -7,6 +7,7 @@ export const XP_REWARDS = {
   lessonComplete: 50,
   fillBlanksPerfect: 25,
   flashcardSession: 20,
+  flashcardQuota: 50,
   moduleComplete: 100,
   dailyLogin: 10,
   dailyGoalMet: 30,

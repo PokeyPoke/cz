@@ -29,6 +29,7 @@ export default defineConfig({
       },
       workbox: {
         globPatterns: ['**/*.{js,css,html,json,webm,mp3,png,svg,ico}'],
+        maximumFileSizeToCacheInBytes: 5 * 1024 * 1024, // 5MB for FSI audio tapes
         runtimeCaching: [
           {
             urlPattern: /\/cz\/audio\/.*\.(webm|mp3)$/,
