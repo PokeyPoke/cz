@@ -1,0 +1,61 @@
+{
+  "id": "03-getting-around",
+  "slug": "getting-around",
+  "title": "Doprava",
+  "titleEn": "Getting Around",
+  "description": "Use public transport, buy tickets, and ask basic directions.",
+  "order": 3,
+  "icon": "🚋",
+  "estimatedMinutes": 25,
+  "lessons": [
+    {
+      "id": "03-getting-around-01",
+      "moduleId": "03-getting-around",
+      "title": "MHD a jízdenky",
+      "titleEn": "Public Transport & Tickets",
+      "order": 1,
+      "segments": [
+        { "type": "dialogue", "title": "Buying a Tram Ticket", "audioSrc": "/cz/audio/03-getting-around/lesson-01/dialogue", "context": "You need a tram ticket at the machine.", "lines": [
+          { "speaker": "Vy", "czech": "Dobrý den. Potřebuji jízdenku.", "english": "Hello. I need a ticket.", "startTime": 0, "endTime": 3 },
+          { "speaker": "A", "czech": "Kam jedete?", "english": "Where are you going?", "startTime": 3, "endTime": 5 },
+          { "speaker": "Vy", "czech": "Do centra.", "english": "To the center.", "startTime": 5, "endTime": 7 },
+          { "speaker": "A", "czech": "Jedna jízdenka stojí 40 korun.", "english": "One ticket costs 40 crowns.", "startTime": 7, "endTime": 11 },
+          { "speaker": "Vy", "czech": "Dobře. Děkuji.", "english": "OK. Thank you.", "startTime": 11, "endTime": 13 }
+        ] },
+        { "type": "phrases", "title": "Key Phrases", "phrases": [
+          { "id": "ph-1", "czech": "Potřebuji jízdenku", "english": "I need a ticket", "audioSrc": "/cz/audio/03-getting-around/lesson-01/ph-01" },
+          { "id": "ph-2", "czech": "Kam jedete?", "english": "Where are you going?", "audioSrc": "/cz/audio/03-getting-around/lesson-01/ph-02" },
+          { "id": "ph-3", "czech": "Do centra", "english": "To the center", "audioSrc": "/cz/audio/03-getting-around/lesson-01/ph-03" },
+          { "id": "ph-4", "czech": "Kolik to stojí?", "english": "How much does it cost?", "audioSrc": "/cz/audio/03-getting-around/lesson-01/ph-04" }
+        ] },
+        { "type": "shadowing", "phrases": [
+          { "id": "sh-1", "czech": "Potřebuji jízdenku.", "english": "I need a ticket.", "audioSrc": "/cz/audio/03-getting-around/lesson-01/sh-01", "pauseAfterMs": 2500 },
+          { "id": "sh-2", "czech": "Kam jedete?", "english": "Where are you going?", "audioSrc": "/cz/audio/03-getting-around/lesson-01/sh-02", "pauseAfterMs": 2500 },
+          { "id": "sh-3", "czech": "Do centra, prosím.", "english": "To the center, please.", "audioSrc": "/cz/audio/03-getting-around/lesson-01/sh-03", "pauseAfterMs": 2500 }
+        ] },
+        { "type": "fill-blanks", "title": "Fill In", "lines": [
+          { "czechBefore": "", "czechAfter": " jízdenku.", "english": "I need a ticket.", "blanks": [{ "id": "b-1", "correctAnswer": "Potřebuji" }] },
+          { "czechBefore": "", "czechAfter": " jedete?", "english": "Where are you going?", "blanks": [{ "id": "b-2", "correctAnswer": "Kam" }] },
+          { "czechBefore": "", "czechAfter": " centra.", "english": "To the center.", "blanks": [{ "id": "b-3", "correctAnswer": "Do" }] }
+        ] },
+        { "type": "flashcards", "cards": [
+          { "id": "fc-1", "front": "jízdenka", "back": "ticket", "exampleSentence": "Jedna jízdenka, prosím." },
+          { "id": "fc-2", "front": "Kam jedete?", "back": "Where are you going?", "exampleSentence": "Dobrý den, kam jedete?" },
+          { "id": "fc-3", "front": "Do centra", "back": "To the center/downtown", "exampleSentence": "Jedeme do centra." },
+          { "id": "fc-4", "front": "Kolik to stojí?", "back": "How much does it cost?", "exampleSentence": "Kolik to stojí, prosím?" }
+        ] },
+        { "type": "pronunciation", "tips": [
+          { "focus": "ů", "description": "The ring over 'u' (ů) makes a long 'oo' sound. Unlike 'ú', 'ů' can only appear in the middle or end of words.", "czechExamples": ["stojí", "dům", "růže"] }
+        ] }
+      ],
+      "vocabulary": [
+        { "czech": "jízdenka", "english": "ticket", "partOfSpeech": "noun" },
+        { "czech": "kam", "english": "where to", "partOfSpeech": "adverb" },
+        { "czech": "do", "english": "to / into", "partOfSpeech": "preposition" },
+        { "czech": "centrum", "english": "center / downtown", "partOfSpeech": "noun" },
+        { "czech": "stojí", "english": "costs", "partOfSpeech": "verb" },
+        { "czech": "Potřebuji", "english": "I need", "partOfSpeech": "verb" }
+      ]
+    }
+  ]
+}

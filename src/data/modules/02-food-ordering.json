@@ -1,0 +1,107 @@
+{
+  "id": "02-food-ordering",
+  "slug": "food-ordering",
+  "title": "Jídlo a pití",
+  "titleEn": "Food & Drink Ordering",
+  "description": "Order in restaurants, read menus, and handle payment in Czech.",
+  "order": 2,
+  "icon": "🍽️",
+  "estimatedMinutes": 25,
+  "prerequisites": ["01-greetings"],
+  "lessons": [
+    {
+      "id": "02-food-ordering-01",
+      "moduleId": "02-food-ordering",
+      "title": "V restauraci",
+      "titleEn": "At the Restaurant",
+      "order": 1,
+      "segments": [
+        {
+          "type": "dialogue",
+          "audioSrc": "/cz/audio/02-food-ordering/lesson-01/dialogue",
+          "title": "Ordering at a Restaurant",
+          "context": "You've just sat down at a restaurant in Prague.",
+          "lines": [
+            { "speaker": "Číšník", "czech": "Dobrý večer. Co si dáte k pití?", "english": "Good evening. What would you like to drink?", "startTime": 0, "endTime": 4 },
+            { "speaker": "Vy", "czech": "Dobrý večer. Pivo, prosím.", "english": "Good evening. A beer, please.", "startTime": 4, "endTime": 7 },
+            { "speaker": "Číšník", "czech": "Světlé nebo tmavé?", "english": "Light or dark?", "startTime": 7, "endTime": 9.5 },
+            { "speaker": "Vy", "czech": "Světlé, prosím.", "english": "Light, please.", "startTime": 9.5, "endTime": 11.5 },
+            { "speaker": "Číšník", "czech": "A k jídlu? Můžu doporučit svíčkovou.", "english": "And to eat? I can recommend the sirloin.", "startTime": 11.5, "endTime": 17 },
+            { "speaker": "Vy", "czech": "Co to je svíčková?", "english": "What is svíčková?", "startTime": 17, "endTime": 19.5 },
+            { "speaker": "Číšník", "czech": "Hovězí maso s omáčkou a knedlíky.", "english": "Beef with cream sauce and dumplings.", "startTime": 19.5, "endTime": 24 },
+            { "speaker": "Vy", "czech": "Dobře, dám si svíčkovou.", "english": "OK, I'll have the svíčková.", "startTime": 24, "endTime": 27.5 },
+            { "speaker": "Číšník", "czech": "Výborně. Ještě něco?", "english": "Excellent. Anything else?", "startTime": 27.5, "endTime": 30.5 },
+            { "speaker": "Vy", "czech": "Ne, děkuji. To je všechno.", "english": "No, thank you. That's everything.", "startTime": 30.5, "endTime": 33.5 }
+          ]
+        },
+        {
+          "type": "phrases",
+          "title": "Key Phrases",
+          "phrases": [
+            { "id": "ph-1", "czech": "Co si dáte?", "english": "What would you like?", "audioSrc": "/cz/audio/02-food-ordering/lesson-01/ph-01" },
+            { "id": "ph-2", "czech": "Dám si...", "english": "I'll have...", "notes": "Literally 'I give myself...'", "audioSrc": "/cz/audio/02-food-ordering/lesson-01/ph-02" },
+            { "id": "ph-3", "czech": "Pivo, prosím", "english": "A beer, please", "audioSrc": "/cz/audio/02-food-ordering/lesson-01/ph-03" },
+            { "id": "ph-4", "czech": "Světlé / tmavé", "english": "Light / dark (beer)", "audioSrc": "/cz/audio/02-food-ordering/lesson-01/ph-04" },
+            { "id": "ph-5", "czech": "K jídlu", "english": "To eat / for food", "audioSrc": "/cz/audio/02-food-ordering/lesson-01/ph-05" },
+            { "id": "ph-6", "czech": "Ještě něco?", "english": "Anything else?", "audioSrc": "/cz/audio/02-food-ordering/lesson-01/ph-06" },
+            { "id": "ph-7", "czech": "To je všechno", "english": "That's everything", "audioSrc": "/cz/audio/02-food-ordering/lesson-01/ph-07" },
+            { "id": "ph-8", "czech": "Zaplatím, prosím", "english": "I'll pay, please / The check please", "audioSrc": "/cz/audio/02-food-ordering/lesson-01/ph-08" }
+          ]
+        },
+        {
+          "type": "shadowing",
+          "phrases": [
+            { "id": "sh-1", "czech": "Dám si pivo, prosím.", "english": "I'll have a beer, please.", "audioSrc": "/cz/audio/02-food-ordering/lesson-01/sh-01", "pauseAfterMs": 3000 },
+            { "id": "sh-2", "czech": "Světlé, prosím.", "english": "Light, please.", "audioSrc": "/cz/audio/02-food-ordering/lesson-01/sh-02", "pauseAfterMs": 2000 },
+            { "id": "sh-3", "czech": "Dám si svíčkovou.", "english": "I'll have the svíčková.", "audioSrc": "/cz/audio/02-food-ordering/lesson-01/sh-03", "pauseAfterMs": 3000 },
+            { "id": "sh-4", "czech": "To je všechno, děkuji.", "english": "That's everything, thank you.", "audioSrc": "/cz/audio/02-food-ordering/lesson-01/sh-04", "pauseAfterMs": 3000 },
+            { "id": "sh-5", "czech": "Zaplatím, prosím.", "english": "The check, please.", "audioSrc": "/cz/audio/02-food-ordering/lesson-01/sh-05", "pauseAfterMs": 2500 }
+          ]
+        },
+        {
+          "type": "fill-blanks",
+          "title": "Complete the Order",
+          "lines": [
+            { "czechBefore": "Co si", "czechAfter": " k pití?", "english": "What would you like to drink?", "blanks": [{ "id": "b-1", "correctAnswer": "dáte" }] },
+            { "czechBefore": "", "czechAfter": " si pivo.", "english": "I'll have a beer.", "blanks": [{ "id": "b-2", "correctAnswer": "Dám" }] },
+            { "czechBefore": "", "czechAfter": " nebo tmavé?", "english": "Light or dark?", "blanks": [{ "id": "b-3", "correctAnswer": "Světlé" }] },
+            { "czechBefore": "To je", "czechAfter": ".", "english": "That's everything.", "blanks": [{ "id": "b-4", "correctAnswer": "všechno" }] },
+            { "czechBefore": "", "czechAfter": ", prosím.", "english": "The check, please.", "blanks": [{ "id": "b-5", "correctAnswer": "Zaplatím" }] }
+          ]
+        },
+        {
+          "type": "flashcards",
+          "cards": [
+            { "id": "fc-1", "front": "pivo", "back": "beer", "exampleSentence": "Jedno pivo, prosím." },
+            { "id": "fc-2", "front": "Dám si...", "back": "I'll have...", "exampleSentence": "Dám si kávu." },
+            { "id": "fc-3", "front": "k jídlu", "back": "to eat (for food)", "exampleSentence": "Co si dáte k jídlu?" },
+            { "id": "fc-4", "front": "k pití", "back": "to drink", "exampleSentence": "Co si dáte k pití?" },
+            { "id": "fc-5", "front": "Zaplatím", "back": "I'll pay / The check", "exampleSentence": "Zaplatím, prosím." },
+            { "id": "fc-6", "front": "Ještě něco?", "back": "Anything else?", "exampleSentence": "Ještě něco si dáte?" },
+            { "id": "fc-7", "front": "Výborně", "back": "Excellent", "exampleSentence": "Výborně, děkuji." },
+            { "id": "fc-8", "front": "svíčková", "back": "sirloin in cream sauce (classic Czech dish)", "exampleSentence": "Svíčková je české jídlo." }
+          ]
+        },
+        {
+          "type": "pronunciation",
+          "tips": [
+            { "focus": "í", "description": "The long 'í' (with acute accent) is pronounced like 'ee' in 'see', but held longer. In 'prosím', the 'í' is long and stressed.", "czechExamples": ["prosím", "svíčková", "dobrý"] },
+            { "focus": "č", "description": "The 'č' (c with háček) is pronounced like 'ch' in 'chocolate' — always soft. In 'svíčková', the 'č' is crisp.", "czechExamples": ["svíčková", "čaj", "večer"] }
+          ]
+        }
+      ],
+      "vocabulary": [
+        { "czech": "pivo", "english": "beer", "partOfSpeech": "noun" },
+        { "czech": "světlé", "english": "light (beer)", "partOfSpeech": "adjective" },
+        { "czech": "tmavé", "english": "dark (beer)", "partOfSpeech": "adjective" },
+        { "czech": "Dám si", "english": "I'll have", "partOfSpeech": "phrase" },
+        { "czech": "k jídlu", "english": "to eat", "partOfSpeech": "phrase" },
+        { "czech": "k pití", "english": "to drink", "partOfSpeech": "phrase" },
+        { "czech": "Zaplatím", "english": "I'll pay", "partOfSpeech": "verb" },
+        { "czech": "ještě něco", "english": "anything else", "partOfSpeech": "phrase" },
+        { "czech": "všechno", "english": "everything", "partOfSpeech": "pronoun" }
+      ],
+      "grammarNotes": "### 'Dám si' — ordering food\n\nCzechs use **Dám si** (I'll give myself) to order food:\n- `Dám si pivo.` — I'll have a beer.\n- `Dám si guláš.` — I'll have goulash.\n\nIt's more natural than saying 'Chci' (I want), which can sound demanding."
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary-50: #eff6ff;
+  --color-primary-100: #dbeafe;
+  --color-primary-200: #bfdbfe;
+  --color-primary-300: #93c5fd;
+  --color-primary-400: #60a5fa;
+  --color-primary-500: #1e3a5f;
+  --color-primary-600: #1a3354;
+  --color-primary-700: #152b48;
+  --color-primary-800: #11233d;
+  --color-primary-900: #0d1b32;
+
+  --color-accent-50: #fef2f2;
+  --color-accent-100: #fee2e2;
+  --color-accent-200: #fecaca;
+  --color-accent-300: #fca5a5;
+  --color-accent-400: #d7141a;
+  --color-accent-500: #be123c;
+  --color-accent-600: #9f1239;
+  --color-accent-700: #881337;
+  --color-accent-800: #4c0519;
+  --color-accent-900: #2d000b;
+
+  --color-gold-400: #c9a94e;
+  --color-gold-500: #b8963f;
+
+  --color-flag-blue: #11457e;
+  --color-flag-red: #d7141a;
+  --color-flag-white: #ffffff;
+
+  --font-family-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-family-display: 'Inter', system-ui, sans-serif;
+
+  --animate-flip: flip 0.6s ease-in-out;
+  --animate-slide-up: slide-up 0.3s ease-out;
+  --animate-badge-pop: badge-pop 0.4s ease-out;
+
+  @keyframes flip {
+    0% { transform: rotateY(0deg); }
+    100% { transform: rotateY(180deg); }
+  }
+  @keyframes slide-up {
+    0% { transform: translateY(10px); opacity: 0; }
+    100% { transform: translateY(0); opacity: 1; }
+  }
+  @keyframes badge-pop {
+    0% { transform: scale(0); opacity: 0; }
+    50% { transform: scale(1.2); }
+    100% { transform: scale(1); opacity: 1; }
+  }
+}
+
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900 antialiased;
+  font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  margin: 0;
+}
+
+.dark body,
+body.dark,
+.dark {
+  @apply bg-gray-950 text-gray-100;
+}
+
+/* Safe area for notched phones */
+.safe-bottom {
+  padding-bottom: env(safe-area-inset-bottom, 0px);
+}
+
+.safe-top {
+  padding-top: env(safe-area-inset-top, 0px);
+}
+
+/* Flashcard 3D perspective */
+.perspective-800 {
+  perspective: 800px;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+}
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Audio player custom thumb */
+input[type="range"].audio-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #1e3a5f;
+  cursor: pointer;
+  margin-top: -6px;
+}
+
+input[type="range"].audio-slider::-webkit-slider-runnable-track {
+  height: 4px;
+  border-radius: 2px;
+  background: #d1d5db;
+}
+
+input[type="range"].audio-slider::-moz-range-thumb {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #1e3a5f;
+  cursor: pointer;
+  border: none;
+}

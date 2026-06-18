@@ -1,0 +1,45 @@
+{
+  "id": "05-small-talk", "slug": "small-talk", "title": "Nezávazná konverzace", "titleEn": "Small Talk", "description": "Chat about family, work, weather, and hobbies in Czech.", "order": 5, "icon": "💬", "estimatedMinutes": 25,
+  "lessons": [
+    {
+      "id": "05-small-talk-01", "moduleId": "05-small-talk", "title": "Rodina a práce", "titleEn": "Family & Work", "order": 1,
+      "segments": [
+        { "type": "dialogue", "title": "Getting to Know Someone", "audioSrc": "/cz/audio/05-small-talk/lesson-01/dialogue", "context": "You're chatting with a Czech colleague at lunch.", "lines": [
+          { "speaker": "A", "czech": "Máte rodinu?", "english": "Do you have a family?", "startTime": 0, "endTime": 2 },
+          { "speaker": "Vy", "czech": "Ano, jsem ženatý. Mám dvě děti.", "english": "Yes, I'm married. I have two children.", "startTime": 2, "endTime": 6.5 },
+          { "speaker": "A", "czech": "A co děláte?", "english": "And what do you do?", "startTime": 6.5, "endTime": 8.5 },
+          { "speaker": "Vy", "czech": "Jsem učitel.", "english": "I'm a teacher.", "startTime": 8.5, "endTime": 10.5 }
+        ] },
+        { "type": "phrases", "title": "Key Phrases", "phrases": [
+          { "id": "ph-1", "czech": "Máte rodinu?", "english": "Do you have a family?", "audioSrc": "/cz/audio/05-small-talk/lesson-01/ph-01" },
+          { "id": "ph-2", "czech": "Jsem ženatý / vdaná", "english": "I'm married (male/female)", "audioSrc": "/cz/audio/05-small-talk/lesson-01/ph-02" },
+          { "id": "ph-3", "czech": "Co děláte?", "english": "What do you do?", "audioSrc": "/cz/audio/05-small-talk/lesson-01/ph-03" },
+          { "id": "ph-4", "czech": "Jsem učitel / učitelka", "english": "I'm a teacher (male/female)", "audioSrc": "/cz/audio/05-small-talk/lesson-01/ph-04" }
+        ] },
+        { "type": "shadowing", "phrases": [
+          { "id": "sh-1", "czech": "Máte rodinu?", "audioSrc": "/cz/audio/05-small-talk/lesson-01/sh-01", "pauseAfterMs": 2000 },
+          { "id": "sh-2", "czech": "Co děláte?", "audioSrc": "/cz/audio/05-small-talk/lesson-01/sh-02", "pauseAfterMs": 2000 },
+          { "id": "sh-3", "czech": "Jsem učitel.", "audioSrc": "/cz/audio/05-small-talk/lesson-01/sh-03", "pauseAfterMs": 2000 }
+        ] },
+        { "type": "fill-blanks", "lines": [
+          { "czechBefore": "", "czechAfter": " rodinu?", "english": "Do you have a family?", "blanks": [{ "id": "b-1", "correctAnswer": "Máte" }] },
+          { "czechBefore": "Co", "czechAfter": "?", "english": "What do you do?", "blanks": [{ "id": "b-2", "correctAnswer": "děláte" }] }
+        ] },
+        { "type": "flashcards", "cards": [
+          { "id": "fc-1", "front": "rodina", "back": "family", "exampleSentence": "Mám velkou rodinu." },
+          { "id": "fc-2", "front": "ženatý / vdaná", "back": "married (m/f)", "exampleSentence": "Jsem ženatý." },
+          { "id": "fc-3", "front": "učitel", "back": "teacher", "exampleSentence": "Pracuji jako učitel." }
+        ] },
+        { "type": "pronunciation", "tips": [
+          { "focus": "děláte", "description": "The 'ě' after 'd' makes a 'dyeh' sound. 'Dě' is like saying 'dyeh' in one syllable.", "czechExamples": ["děláte", "děkuji", "děti"] }
+        ] }
+      ],
+      "vocabulary": [
+        { "czech": "rodina", "english": "family", "partOfSpeech": "noun" },
+        { "czech": "ženatý", "english": "married (male)", "partOfSpeech": "adjective" },
+        { "czech": "děti", "english": "children", "partOfSpeech": "noun" },
+        { "czech": "učitel", "english": "teacher", "partOfSpeech": "noun" }
+      ]
+    }
+  ]
+}

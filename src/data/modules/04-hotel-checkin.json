@@ -1,0 +1,51 @@
+{
+  "id": "04-hotel-checkin", "slug": "hotel-checkin", "title": "Ubytování", "titleEn": "Hotel Check-in", "description": "Check into hotels, handle reservations, and report room issues.", "order": 4, "icon": "🏨", "estimatedMinutes": 20,
+  "lessons": [
+    {
+      "id": "04-hotel-checkin-01", "moduleId": "04-hotel-checkin", "title": "Příjezd do hotelu", "titleEn": "Arriving at the Hotel", "order": 1,
+      "segments": [
+        { "type": "dialogue", "title": "Hotel Check-in", "audioSrc": "/cz/audio/04-hotel-checkin/lesson-01/dialogue", "context": "You arrive at your hotel in Prague.", "lines": [
+          { "speaker": "Vy", "czech": "Dobrý den. Mám rezervaci.", "english": "Hello. I have a reservation.", "startTime": 0, "endTime": 3 },
+          { "speaker": "A", "czech": "Na jaké jméno?", "english": "Under what name?", "startTime": 3, "endTime": 5 },
+          { "speaker": "Vy", "czech": "Smith.", "english": "Smith.", "startTime": 5, "endTime": 6.5 },
+          { "speaker": "A", "czech": "Ano, na dvě noci. Pokoj číslo 204.", "english": "Yes, for two nights. Room 204.", "startTime": 6.5, "endTime": 12 },
+          { "speaker": "Vy", "czech": "Děkuji. V kolik hodin je snídaně?", "english": "Thank you. What time is breakfast?", "startTime": 12, "endTime": 16.5 },
+          { "speaker": "A", "czech": "Od sedmi do desíti.", "english": "From 7 to 10.", "startTime": 16.5, "endTime": 19.5 }
+        ] },
+        { "type": "phrases", "title": "Key Phrases", "phrases": [
+          { "id": "ph-1", "czech": "Mám rezervaci", "english": "I have a reservation", "audioSrc": "/cz/audio/04-hotel-checkin/lesson-01/ph-01" },
+          { "id": "ph-2", "czech": "Na jaké jméno?", "english": "Under what name?", "audioSrc": "/cz/audio/04-hotel-checkin/lesson-01/ph-02" },
+          { "id": "ph-3", "czech": "pokoj", "english": "room", "audioSrc": "/cz/audio/04-hotel-checkin/lesson-01/ph-03" },
+          { "id": "ph-4", "czech": "snídaně", "english": "breakfast", "audioSrc": "/cz/audio/04-hotel-checkin/lesson-01/ph-04" },
+          { "id": "ph-5", "czech": "V kolik hodin?", "english": "At what time?", "audioSrc": "/cz/audio/04-hotel-checkin/lesson-01/ph-05" }
+        ] },
+        { "type": "shadowing", "phrases": [
+          { "id": "sh-1", "czech": "Mám rezervaci.", "english": "I have a reservation.", "audioSrc": "/cz/audio/04-hotel-checkin/lesson-01/sh-01", "pauseAfterMs": 2500 },
+          { "id": "sh-2", "czech": "Na dvě noci.", "english": "For two nights.", "audioSrc": "/cz/audio/04-hotel-checkin/lesson-01/sh-02", "pauseAfterMs": 2500 },
+          { "id": "sh-3", "czech": "V kolik hodin je snídaně?", "english": "What time is breakfast?", "audioSrc": "/cz/audio/04-hotel-checkin/lesson-01/sh-03", "pauseAfterMs": 3000 }
+        ] },
+        { "type": "fill-blanks", "title": "Fill In", "lines": [
+          { "czechBefore": "", "czechAfter": " rezervaci.", "english": "I have a reservation.", "blanks": [{ "id": "b-1", "correctAnswer": "Mám" }] },
+          { "czechBefore": "Na jaké", "czechAfter": "?", "english": "Under what name?", "blanks": [{ "id": "b-2", "correctAnswer": "jméno" }] },
+          { "czechBefore": "V", "czechAfter": " hodin je snídaně?", "english": "What time is breakfast?", "blanks": [{ "id": "b-3", "correctAnswer": "kolik" }] }
+        ] },
+        { "type": "flashcards", "cards": [
+          { "id": "fc-1", "front": "rezervace", "back": "reservation", "exampleSentence": "Mám rezervaci na dvě noci." },
+          { "id": "fc-2", "front": "pokoj", "back": "room", "exampleSentence": "Pokoj číslo 204." },
+          { "id": "fc-3", "front": "snídaně", "back": "breakfast", "exampleSentence": "Snídaně je od sedmi." },
+          { "id": "fc-4", "front": "V kolik hodin?", "back": "At what time?", "exampleSentence": "V kolik hodin začíná?" }
+        ] },
+        { "type": "pronunciation", "tips": [
+          { "focus": "c", "description": "Czech 'c' is always pronounced like 'ts' as in 'cats'. In 'rezervaci', the final 'c' sounds like 'ts-ee'.", "czechExamples": ["rezervaci", "cena", "cibule"] }
+        ] }
+      ],
+      "vocabulary": [
+        { "czech": "rezervace", "english": "reservation", "partOfSpeech": "noun" },
+        { "czech": "pokoj", "english": "room", "partOfSpeech": "noun" },
+        { "czech": "snídaně", "english": "breakfast", "partOfSpeech": "noun" },
+        { "czech": "noc", "english": "night", "partOfSpeech": "noun" },
+        { "czech": "jméno", "english": "name", "partOfSpeech": "noun" }
+      ]
+    }
+  ]
+}

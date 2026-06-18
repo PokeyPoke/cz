@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>CzLearn</title>
+  <script>
+    // SPA redirect for GitHub Pages - captures URL and redirects to index
+    sessionStorage.setItem('redirect', location.pathname + location.search + location.hash);
+    location.replace('/cz/');
+  </script>
+</head>
+<body></body>
+</html>

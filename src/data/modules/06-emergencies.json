@@ -1,0 +1,45 @@
+{
+  "id": "06-emergencies", "slug": "emergencies", "title": "Nouzové situace", "titleEn": "Emergency Phrases", "description": "Handle medical issues, lost items, and urgent situations.", "order": 6, "icon": "🆘", "estimatedMinutes": 20,
+  "lessons": [
+    {
+      "id": "06-emergencies-01", "moduleId": "06-emergencies", "title": "U doktora", "titleEn": "At the Doctor", "order": 1,
+      "segments": [
+        { "type": "dialogue", "title": "At the Doctor's Office", "audioSrc": "/cz/audio/06-emergencies/lesson-01/dialogue", "context": "You're not feeling well and visit a doctor.", "lines": [
+          { "speaker": "Vy", "czech": "Potřebuji pomoc. Je mi špatně.", "english": "I need help. I feel sick.", "startTime": 0, "endTime": 4 },
+          { "speaker": "A", "czech": "Co vás bolí?", "english": "What hurts?", "startTime": 4, "endTime": 6 },
+          { "speaker": "Vy", "czech": "Bolí mě hlava a břicho.", "english": "My head and stomach hurt.", "startTime": 6, "endTime": 10 },
+          { "speaker": "A", "czech": "Dobře, podívám se na to.", "english": "OK, I'll take a look.", "startTime": 10, "endTime": 13 }
+        ] },
+        { "type": "phrases", "title": "Key Phrases", "phrases": [
+          { "id": "ph-1", "czech": "Potřebuji pomoc", "english": "I need help", "audioSrc": "/cz/audio/06-emergencies/lesson-01/ph-01" },
+          { "id": "ph-2", "czech": "Je mi špatně", "english": "I feel sick", "audioSrc": "/cz/audio/06-emergencies/lesson-01/ph-02" },
+          { "id": "ph-3", "czech": "Bolí mě...", "english": "My ... hurts", "audioSrc": "/cz/audio/06-emergencies/lesson-01/ph-03" },
+          { "id": "ph-4", "czech": "Zavolejte sanitku", "english": "Call an ambulance", "audioSrc": "/cz/audio/06-emergencies/lesson-01/ph-04" }
+        ] },
+        { "type": "shadowing", "phrases": [
+          { "id": "sh-1", "czech": "Potřebuji pomoc.", "audioSrc": "/cz/audio/06-emergencies/lesson-01/sh-01", "pauseAfterMs": 2500 },
+          { "id": "sh-2", "czech": "Je mi špatně.", "audioSrc": "/cz/audio/06-emergencies/lesson-01/sh-02", "pauseAfterMs": 2500 },
+          { "id": "sh-3", "czech": "Bolí mě hlava.", "audioSrc": "/cz/audio/06-emergencies/lesson-01/sh-03", "pauseAfterMs": 2500 }
+        ] },
+        { "type": "fill-blanks", "lines": [
+          { "czechBefore": "Je mi", "czechAfter": ".", "english": "I feel sick.", "blanks": [{ "id": "b-1", "correctAnswer": "špatně" }] },
+          { "czechBefore": "", "czechAfter": " mě hlava.", "english": "My head hurts.", "blanks": [{ "id": "b-2", "correctAnswer": "Bolí" }] }
+        ] },
+        { "type": "flashcards", "cards": [
+          { "id": "fc-1", "front": "pomoc", "back": "help", "exampleSentence": "Potřebuji pomoc." },
+          { "id": "fc-2", "front": "Bolí mě...", "back": "My ... hurts", "exampleSentence": "Bolí mě břicho." },
+          { "id": "fc-3", "front": "sanitka", "back": "ambulance", "exampleSentence": "Zavolejte sanitku!" }
+        ] },
+        { "type": "pronunciation", "tips": [
+          { "focus": "ě", "description": "The letter 'ě' after 'b', 'p', 'v', 'f' adds a 'ye' sound. 'Bě' = 'byeh', 'pě' = 'pyeh'.", "czechExamples": ["běžet", "pět", "vědět"] }
+        ] }
+      ],
+      "vocabulary": [
+        { "czech": "pomoc", "english": "help", "partOfSpeech": "noun" },
+        { "czech": "špatně", "english": "bad / sick", "partOfSpeech": "adverb" },
+        { "czech": "hlava", "english": "head", "partOfSpeech": "noun" },
+        { "czech": "sanitka", "english": "ambulance", "partOfSpeech": "noun" }
+      ]
+    }
+  ]
+}

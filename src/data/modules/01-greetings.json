@@ -1,0 +1,222 @@
+{
+  "id": "01-greetings",
+  "slug": "greetings",
+  "title": "Pozdravy",
+  "titleEn": "Greetings & Survival",
+  "description": "Learn to greet people, introduce yourself, and use basic polite expressions in Czech.",
+  "order": 1,
+  "icon": "👋",
+  "estimatedMinutes": 20,
+  "lessons": [
+    {
+      "id": "01-greetings-01",
+      "moduleId": "01-greetings",
+      "title": "První setkání",
+      "titleEn": "First Meeting",
+      "order": 1,
+      "segments": [
+        {
+          "type": "dialogue",
+          "audioSrc": "/cz/audio/01-greetings/lesson-01/dialogue",
+          "title": "Meeting Someone New",
+          "context": "You're at a conference in Prague. Someone approaches you.",
+          "lines": [
+            { "speaker": "A", "czech": "Dobrý den.", "english": "Good day.", "startTime": 0, "endTime": 1.5 },
+            { "speaker": "B", "czech": "Dobrý den. Jak se máte?", "english": "Good day. How are you?", "startTime": 1.5, "endTime": 4 },
+            { "speaker": "A", "czech": "Děkuji, dobře. A vy?", "english": "Thank you, well. And you?", "startTime": 4, "endTime": 7 },
+            { "speaker": "B", "czech": "Také dobře, děkuji.", "english": "Also well, thank you.", "startTime": 7, "endTime": 9.5 },
+            { "speaker": "A", "czech": "Jmenuji se Petr. A vy?", "english": "My name is Petr. And you?", "startTime": 9.5, "endTime": 13 },
+            { "speaker": "B", "czech": "Jmenuji se Eva. Těší mě.", "english": "My name is Eva. Pleased to meet you.", "startTime": 13, "endTime": 17 },
+            { "speaker": "A", "czech": "Těší mě. Odkud jste?", "english": "Pleased to meet you. Where are you from?", "startTime": 17, "endTime": 20 },
+            { "speaker": "B", "czech": "Jsem z Ameriky. A vy?", "english": "I'm from America. And you?", "startTime": 20, "endTime": 23.5 },
+            { "speaker": "A", "czech": "Jsem z Anglie.", "english": "I'm from England.", "startTime": 23.5, "endTime": 25.5 }
+          ]
+        },
+        {
+          "type": "phrases",
+          "title": "Key Phrases",
+          "phrases": [
+            { "id": "ph-1", "czech": "Dobrý den", "english": "Good day / Hello (formal)", "transliteration": "DOH-bree den", "audioSrc": "/cz/audio/01-greetings/lesson-01/ph-01" },
+            { "id": "ph-2", "czech": "Jak se máte?", "english": "How are you? (formal)", "transliteration": "yahk seh MAH-teh", "audioSrc": "/cz/audio/01-greetings/lesson-01/ph-02" },
+            { "id": "ph-3", "czech": "Děkuji, dobře", "english": "Thank you, well / I'm fine", "transliteration": "DYEH-koo-yee DOB-rzheh", "notes": "Děkuji = thank you. Short form: Díky (informal)", "audioSrc": "/cz/audio/01-greetings/lesson-01/ph-03" },
+            { "id": "ph-4", "czech": "A vy?", "english": "And you? (formal)", "audioSrc": "/cz/audio/01-greetings/lesson-01/ph-04" },
+            { "id": "ph-5", "czech": "Jmenuji se...", "english": "My name is...", "transliteration": "YMEH-noo-yee seh", "notes": "Literally: I call myself...", "audioSrc": "/cz/audio/01-greetings/lesson-01/ph-05" },
+            { "id": "ph-6", "czech": "Těší mě", "english": "Pleased to meet you", "transliteration": "TYEH-shee myeh", "notes": "Literally: It pleases me", "audioSrc": "/cz/audio/01-greetings/lesson-01/ph-06" },
+            { "id": "ph-7", "czech": "Odkud jste?", "english": "Where are you from? (formal)", "transliteration": "OD-kood steh", "audioSrc": "/cz/audio/01-greetings/lesson-01/ph-07" },
+            { "id": "ph-8", "czech": "Jsem z...", "english": "I am from...", "transliteration": "sem z", "notes": "Jsem = I am, z = from", "audioSrc": "/cz/audio/01-greetings/lesson-01/ph-08" }
+          ]
+        },
+        {
+          "type": "shadowing",
+          "title": "Listen & Repeat",
+          "phrases": [
+            { "id": "sh-1", "czech": "Dobrý den.", "english": "Good day.", "audioSrc": "/cz/audio/01-greetings/lesson-01/sh-01", "pauseAfterMs": 2500 },
+            { "id": "sh-2", "czech": "Jak se máte?", "english": "How are you?", "audioSrc": "/cz/audio/01-greetings/lesson-01/sh-02", "pauseAfterMs": 2500 },
+            { "id": "sh-3", "czech": "Děkuji, dobře. A vy?", "english": "Thank you, well. And you?", "audioSrc": "/cz/audio/01-greetings/lesson-01/sh-03", "pauseAfterMs": 3000 },
+            { "id": "sh-4", "czech": "Jmenuji se Petr.", "english": "My name is Petr.", "audioSrc": "/cz/audio/01-greetings/lesson-01/sh-04", "pauseAfterMs": 3000 },
+            { "id": "sh-5", "czech": "Těší mě.", "english": "Pleased to meet you.", "audioSrc": "/cz/audio/01-greetings/lesson-01/sh-05", "pauseAfterMs": 2500 }
+          ]
+        },
+        {
+          "type": "fill-blanks",
+          "title": "Complete the Dialogue",
+          "instructions": "Fill in the missing Czech words",
+          "lines": [
+            { "czechBefore": "", "czechAfter": " den.", "english": "Good day.", "blanks": [{ "id": "b-1", "correctAnswer": "Dobrý" }] },
+            { "czechBefore": "", "czechAfter": " se máte?", "english": "How are you?", "blanks": [{ "id": "b-2", "correctAnswer": "Jak", "hint": "How..." }] },
+            { "czechBefore": "", "czechAfter": ", dobře.", "english": "Thank you, well.", "blanks": [{ "id": "b-3", "correctAnswer": "Děkuji", "acceptableAnswers": ["Díky"] }] },
+            { "czechBefore": "Jmenuji", "czechAfter": " Petr.", "english": "My name is Petr.", "blanks": [{ "id": "b-4", "correctAnswer": "se" }] },
+            { "czechBefore": "", "czechAfter": " mě.", "english": "Pleased to meet you.", "blanks": [{ "id": "b-5", "correctAnswer": "Těší" }] }
+          ]
+        },
+        {
+          "type": "flashcards",
+          "title": "Vocabulary Review",
+          "cards": [
+            { "id": "fc-1", "front": "Dobrý den", "back": "Good day / Hello (formal)", "exampleSentence": "Dobrý den, jak se máte?" },
+            { "id": "fc-2", "front": "Jak se máte?", "back": "How are you? (formal)", "exampleSentence": "Dobrý den, jak se máte?" },
+            { "id": "fc-3", "front": "Děkuji", "back": "Thank you", "exampleSentence": "Děkuji, dobře." },
+            { "id": "fc-4", "front": "Jmenuji se...", "back": "My name is...", "exampleSentence": "Jmenuji se Eva." },
+            { "id": "fc-5", "front": "Těší mě", "back": "Pleased to meet you", "exampleSentence": "Těší mě, taky." },
+            { "id": "fc-6", "front": "Odkud jste?", "back": "Where are you from? (formal)", "exampleSentence": "Odkud jste, prosím?" },
+            { "id": "fc-7", "front": "Jsem z...", "back": "I am from...", "exampleSentence": "Jsem z Ameriky." },
+            { "id": "fc-8", "front": "A vy?", "back": "And you? (formal)", "exampleSentence": "Dobře, a vy?" }
+          ]
+        },
+        {
+          "type": "pronunciation",
+          "title": "Pronunciation Guide",
+          "tips": [
+            {
+              "focus": "ř",
+              "description": "The 'ř' sound is unique to Czech. It's like rolling an 'r' while simultaneously making a 'zh' sound (like the 's' in 'measure'). Try vibrating your tongue against the roof of your mouth while saying 'rzh'.",
+              "czechExamples": ["Dobrý", "před", "přítel"],
+              "audioSrc": "/cz/audio/01-greetings/lesson-01/pron-r"
+            },
+            {
+              "focus": "ě",
+              "description": "The letter 'ě' (e with háček) sounds like 'ye' as in 'yes'. It also palatalizes (softens) the preceding consonant. In 'Děkuji', the 'dě' sounds like 'dyeh'.",
+              "czechExamples": ["Děkuji", "mě", "oběd"],
+              "audioSrc": "/cz/audio/01-greetings/lesson-01/pron-e"
+            },
+            {
+              "focus": "j",
+              "description": "Czech 'j' is always pronounced like 'y' in 'yes', never like English 'j'. So 'jak' sounds like 'yahk'.",
+              "czechExamples": ["Jak", "jmenuji", "jazyk"],
+              "audioSrc": "/cz/audio/01-greetings/lesson-01/pron-j"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        { "czech": "Dobrý den", "english": "Good day", "partOfSpeech": "phrase" },
+        { "czech": "Jak", "english": "How", "partOfSpeech": "adverb" },
+        { "czech": "se", "english": "oneself (reflexive pronoun)", "partOfSpeech": "pronoun" },
+        { "czech": "máte", "english": "you have/are (formal, 2nd person plural)", "partOfSpeech": "verb" },
+        { "czech": "Děkuji", "english": "Thank you", "partOfSpeech": "verb" },
+        { "czech": "dobře", "english": "well/good", "partOfSpeech": "adverb" },
+        { "czech": "jmenuji se", "english": "I call myself / my name is", "partOfSpeech": "verb phrase" },
+        { "czech": "Těší mě", "english": "Pleased to meet you", "partOfSpeech": "phrase" },
+        { "czech": "odkud", "english": "from where", "partOfSpeech": "adverb" },
+        { "czech": "jsem", "english": "I am", "partOfSpeech": "verb" }
+      ],
+      "grammarNotes": "## Formality in Czech\n\nCzech has two levels of formality:\n- **Ty** (informal) — used with friends, family, children\n- **Vy** (formal) — used with strangers, in business, with elders\n\nAlways start with formal **Vy** unless invited otherwise. **Dobrý den** works in all situations (literally 'Good day')."
+    },
+    {
+      "id": "01-greetings-02",
+      "moduleId": "01-greetings",
+      "title": "Rozloučení a zdvořilosti",
+      "titleEn": "Goodbyes & Politeness",
+      "order": 2,
+      "segments": [
+        {
+          "type": "dialogue",
+          "audioSrc": "/cz/audio/01-greetings/lesson-02/dialogue",
+          "title": "Saying Goodbye",
+          "context": "After the conference, you're leaving.",
+          "lines": [
+            { "speaker": "A", "czech": "Už musím jít.", "english": "I have to go now.", "startTime": 0, "endTime": 2 },
+            { "speaker": "B", "czech": "Škoda. Na shledanou.", "english": "That's a pity. Goodbye.", "startTime": 2, "endTime": 5 },
+            { "speaker": "A", "czech": "Na shledanou. Mějte se hezky.", "english": "Goodbye. Take care.", "startTime": 5, "endTime": 8.5 },
+            { "speaker": "B", "czech": "Děkuji, vy také.", "english": "Thank you, you too.", "startTime": 8.5, "endTime": 11 },
+            { "speaker": "A", "czech": "Promiňte, kde je východ?", "english": "Excuse me, where is the exit?", "startTime": 11, "endTime": 14.5 },
+            { "speaker": "B", "czech": "Tamhle vpravo.", "english": "Over there on the right.", "startTime": 14.5, "endTime": 16.5 },
+            { "speaker": "A", "czech": "Děkuji. Nashle.", "english": "Thank you. Bye.", "startTime": 16.5, "endTime": 18.5 }
+          ]
+        },
+        {
+          "type": "phrases",
+          "title": "Key Phrases",
+          "phrases": [
+            { "id": "ph-1", "czech": "Na shledanou", "english": "Goodbye (formal)", "transliteration": "nah SKHLEH-dah-noh", "audioSrc": "/cz/audio/01-greetings/lesson-02/ph-01" },
+            { "id": "ph-2", "czech": "Nashle", "english": "Bye (informal)", "transliteration": "NAH-skhleh", "notes": "Short for Na shledanou", "audioSrc": "/cz/audio/01-greetings/lesson-02/ph-02" },
+            { "id": "ph-3", "czech": "Mějte se hezky", "english": "Take care / Have a nice day", "transliteration": "MYEY-teh seh HEZ-kee", "audioSrc": "/cz/audio/01-greetings/lesson-02/ph-03" },
+            { "id": "ph-4", "czech": "Promiňte", "english": "Excuse me / Sorry (formal)", "transliteration": "PROH-min-yteh", "audioSrc": "/cz/audio/01-greetings/lesson-02/ph-04" },
+            { "id": "ph-5", "czech": "Prosím", "english": "Please / You're welcome / Here you go", "transliteration": "PROH-seem", "notes": "The Swiss army knife of Czech politeness!", "audioSrc": "/cz/audio/01-greetings/lesson-02/ph-05" },
+            { "id": "ph-6", "czech": "Ano / Ne", "english": "Yes / No", "transliteration": "AH-noh / neh", "audioSrc": "/cz/audio/01-greetings/lesson-02/ph-06" }
+          ]
+        },
+        {
+          "type": "shadowing",
+          "phrases": [
+            { "id": "sh-1", "czech": "Na shledanou.", "english": "Goodbye.", "audioSrc": "/cz/audio/01-greetings/lesson-02/sh-01", "pauseAfterMs": 2500 },
+            { "id": "sh-2", "czech": "Mějte se hezky.", "english": "Take care.", "audioSrc": "/cz/audio/01-greetings/lesson-02/sh-02", "pauseAfterMs": 2500 },
+            { "id": "sh-3", "czech": "Promiňte, prosím.", "english": "Excuse me, please.", "audioSrc": "/cz/audio/01-greetings/lesson-02/sh-03", "pauseAfterMs": 2500 },
+            { "id": "sh-4", "czech": "Děkuji. Nashle.", "english": "Thank you. Bye.", "audioSrc": "/cz/audio/01-greetings/lesson-02/sh-04", "pauseAfterMs": 2500 }
+          ]
+        },
+        {
+          "type": "fill-blanks",
+          "title": "Complete the Dialogue",
+          "lines": [
+            { "czechBefore": "", "czechAfter": " shledanou.", "english": "Goodbye.", "blanks": [{ "id": "b-1", "correctAnswer": "Na" }] },
+            { "czechBefore": "Mějte se", "czechAfter": ".", "english": "Take care.", "blanks": [{ "id": "b-2", "correctAnswer": "hezky" }] },
+            { "czechBefore": "", "czechAfter": ", kde je východ?", "english": "Excuse me, where is the exit?", "blanks": [{ "id": "b-3", "correctAnswer": "Promiňte" }] },
+            { "czechBefore": "Děkuji.", "czechAfter": ".", "english": "Thank you. Bye.", "blanks": [{ "id": "b-4", "correctAnswer": "Nashle", "acceptableAnswers": ["Na shledanou"] }] }
+          ]
+        },
+        {
+          "type": "flashcards",
+          "cards": [
+            { "id": "fc-1", "front": "Na shledanou", "back": "Goodbye (formal)", "exampleSentence": "Na shledanou, mějte se hezky." },
+            { "id": "fc-2", "front": "Promiňte", "back": "Excuse me / Sorry (formal)", "exampleSentence": "Promiňte, kde je toaleta?" },
+            { "id": "fc-3", "front": "Prosím", "back": "Please / You're welcome", "exampleSentence": "Prosím, tady." },
+            { "id": "fc-4", "front": "Ano", "back": "Yes", "exampleSentence": "Ano, děkuji." },
+            { "id": "fc-5", "front": "Ne", "back": "No", "exampleSentence": "Ne, děkuji." },
+            { "id": "fc-6", "front": "Už musím jít", "back": "I have to go now", "exampleSentence": "Promiňte, už musím jít." }
+          ]
+        },
+        {
+          "type": "pronunciation",
+          "tips": [
+            {
+              "focus": "ch",
+              "description": "The 'ch' in Czech is pronounced like the 'ch' in Scottish 'loch' or German 'Bach' — a throaty, rough 'h' sound. In 'shledanou', 'sh' is pronounced as two separate sounds: s + h (like 'sh' but with a rougher h).",
+              "czechExamples": ["shledanou", "chleba", "trochu"],
+              "audioSrc": "/cz/audio/01-greetings/lesson-02/pron-ch"
+            },
+            {
+              "focus": "ň",
+              "description": "The 'ň' (n with háček) is like the 'ny' in 'canyon'. In 'promiňte', the tongue presses against the roof of the mouth farther forward than a regular 'n'.",
+              "czechExamples": ["Promiňte", "laň", "kůň"],
+              "audioSrc": "/cz/audio/01-greetings/lesson-02/pron-n"
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        { "czech": "Na shledanou", "english": "Goodbye (formal)", "partOfSpeech": "phrase" },
+        { "czech": "Mějte se hezky", "english": "Take care", "partOfSpeech": "phrase" },
+        { "czech": "Promiňte", "english": "Excuse me / Sorry", "partOfSpeech": "interjection" },
+        { "czech": "Prosím", "english": "Please / You're welcome", "partOfSpeech": "interjection" },
+        { "czech": "Ano", "english": "Yes", "partOfSpeech": "particle" },
+        { "czech": "Ne", "english": "No", "partOfSpeech": "particle" },
+        { "czech": "Už", "english": "Already / Now", "partOfSpeech": "adverb" },
+        { "czech": "musím", "english": "I must", "partOfSpeech": "verb" },
+        { "czech": "jít", "english": "to go", "partOfSpeech": "verb" },
+        { "czech": "východ", "english": "exit", "partOfSpeech": "noun" }
+      ],
+      "grammarNotes": "### Prosím — the magic word\n\n**Prosím** has multiple uses:\n1. **Please**: `Kávu, prosím.` — Coffee, please.\n2. **You're welcome**: After someone says `Děkuji`, reply `Prosím`.\n3. **Pardon?**: When you didn't hear, say `Prosím?`\n4. **Here you go**: Handing something over."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "id": "07-shopping", "slug": "shopping", "title": "Nakupování", "titleEn": "Shopping", "description": "Navigate stores, ask about prices, sizes, and make purchases.", "order": 7, "icon": "🛍️", "estimatedMinutes": 20,
+  "lessons": [
+    {
+      "id": "07-shopping-01", "moduleId": "07-shopping", "title": "V obchodě", "titleEn": "At the Store", "order": 1,
+      "segments": [
+        { "type": "dialogue", "title": "Buying Clothes", "audioSrc": "/cz/audio/07-shopping/lesson-01/dialogue", "context": "You're shopping at a clothing store.", "lines": [
+          { "speaker": "Vy", "czech": "Kolik to stojí?", "english": "How much does this cost?", "startTime": 0, "endTime": 2.5 },
+          { "speaker": "A", "czech": "Stojí to 500 korun.", "english": "It costs 500 crowns.", "startTime": 2.5, "endTime": 5.5 },
+          { "speaker": "Vy", "czech": "Máte větší velikost?", "english": "Do you have a bigger size?", "startTime": 5.5, "endTime": 8.5 },
+          { "speaker": "A", "czech": "Ano, tady je.", "english": "Yes, here you are.", "startTime": 8.5, "endTime": 10.5 }
+        ] },
+        { "type": "phrases", "title": "Key Phrases", "phrases": [
+          { "id": "ph-1", "czech": "Kolik to stojí?", "english": "How much does it cost?", "audioSrc": "/cz/audio/07-shopping/lesson-01/ph-01" },
+          { "id": "ph-2", "czech": "velikost", "english": "size", "audioSrc": "/cz/audio/07-shopping/lesson-01/ph-02" },
+          { "id": "ph-3", "czech": "Máte menší?", "english": "Do you have a smaller one?", "audioSrc": "/cz/audio/07-shopping/lesson-01/ph-03" },
+          { "id": "ph-4", "czech": "Vezmu si to", "english": "I'll take it", "audioSrc": "/cz/audio/07-shopping/lesson-01/ph-04" }
+        ] },
+        { "type": "shadowing", "phrases": [
+          { "id": "sh-1", "czech": "Kolik to stojí?", "audioSrc": "/cz/audio/07-shopping/lesson-01/sh-01", "pauseAfterMs": 2500 },
+          { "id": "sh-2", "czech": "Máte větší velikost?", "audioSrc": "/cz/audio/07-shopping/lesson-01/sh-02", "pauseAfterMs": 3000 },
+          { "id": "sh-3", "czech": "Vezmu si to.", "audioSrc": "/cz/audio/07-shopping/lesson-01/sh-03", "pauseAfterMs": 2500 }
+        ] },
+        { "type": "fill-blanks", "lines": [
+          { "czechBefore": "", "czechAfter": " to stojí?", "english": "How much does it cost?", "blanks": [{ "id": "b-1", "correctAnswer": "Kolik" }] },
+          { "czechBefore": "Máte", "czechAfter": " velikost?", "english": "Do you have a bigger size?", "blanks": [{ "id": "b-2", "correctAnswer": "větší" }] }
+        ] },
+        { "type": "flashcards", "cards": [
+          { "id": "fc-1", "front": "Kolik to stojí?", "back": "How much does it cost?", "exampleSentence": "Promiňte, kolik to stojí?" },
+          { "id": "fc-2", "front": "velikost", "back": "size", "exampleSentence": "Jakou máte velikost?" },
+          { "id": "fc-3", "front": "Vezmu si to", "back": "I'll take it", "exampleSentence": "Dobře, vezmu si to." }
+        ] },
+        { "type": "pronunciation", "tips": [
+          { "focus": "š", "description": "Czech 'š' is like English 'sh' in 'shoe'. Always soft and crisp.", "czechExamples": ["šaty", "větší", "Škoda"] }
+        ] }
+      ],
+      "vocabulary": [
+        { "czech": "Kolik", "english": "How much / How many", "partOfSpeech": "adverb" },
+        { "czech": "velikost", "english": "size", "partOfSpeech": "noun" },
+        { "czech": "větší", "english": "bigger", "partOfSpeech": "adjective" },
+        { "czech": "Vezmu si", "english": "I'll take", "partOfSpeech": "phrase" }
+      ]
+    }
+  ]
+}

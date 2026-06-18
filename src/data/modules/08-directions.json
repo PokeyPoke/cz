@@ -1,0 +1,53 @@
+{
+  "id": "08-directions", "slug": "directions", "title": "Orientace", "titleEn": "Directions & Landmarks", "description": "Give and follow detailed directions, understand landmarks.", "order": 8, "icon": "🗺️", "estimatedMinutes": 25,
+  "lessons": [
+    {
+      "id": "08-directions-01", "moduleId": "08-directions", "title": "Kde je...?", "titleEn": "Where is...?", "order": 1,
+      "segments": [
+        { "type": "dialogue", "title": "Asking for Directions", "audioSrc": "/cz/audio/08-directions/lesson-01/dialogue", "context": "You're looking for the Charles Bridge.", "lines": [
+          { "speaker": "Vy", "czech": "Promiňte, kde je Karlův most?", "english": "Excuse me, where is Charles Bridge?", "startTime": 0, "endTime": 4 },
+          { "speaker": "A", "czech": "Jděte rovně, pak doprava.", "english": "Go straight, then right.", "startTime": 4, "endTime": 8 },
+          { "speaker": "Vy", "czech": "Je to daleko?", "english": "Is it far?", "startTime": 8, "endTime": 10 },
+          { "speaker": "A", "czech": "Ne, asi pět minut pěšky.", "english": "No, about five minutes on foot.", "startTime": 10, "endTime": 14 }
+        ] },
+        { "type": "phrases", "title": "Key Phrases", "phrases": [
+          { "id": "ph-1", "czech": "Kde je...?", "english": "Where is...?", "audioSrc": "/cz/audio/08-directions/lesson-01/ph-01" },
+          { "id": "ph-2", "czech": "Jděte rovně", "english": "Go straight", "audioSrc": "/cz/audio/08-directions/lesson-01/ph-02" },
+          { "id": "ph-3", "czech": "doprava / doleva", "english": "right / left", "audioSrc": "/cz/audio/08-directions/lesson-01/ph-03" },
+          { "id": "ph-4", "czech": "Je to daleko?", "english": "Is it far?", "audioSrc": "/cz/audio/08-directions/lesson-01/ph-04" },
+          { "id": "ph-5", "czech": "pěšky", "english": "on foot", "audioSrc": "/cz/audio/08-directions/lesson-01/ph-05" }
+        ] },
+        { "type": "shadowing", "phrases": [
+          { "id": "sh-1", "czech": "Kde je Karlův most?", "audioSrc": "/cz/audio/08-directions/lesson-01/sh-01", "pauseAfterMs": 3000 },
+          { "id": "sh-2", "czech": "Jděte rovně.", "audioSrc": "/cz/audio/08-directions/lesson-01/sh-02", "pauseAfterMs": 2000 },
+          { "id": "sh-3", "czech": "Doprava, prosím.", "audioSrc": "/cz/audio/08-directions/lesson-01/sh-03", "pauseAfterMs": 2000 },
+          { "id": "sh-4", "czech": "Je to daleko?", "audioSrc": "/cz/audio/08-directions/lesson-01/sh-04", "pauseAfterMs": 2500 }
+        ] },
+        { "type": "fill-blanks", "lines": [
+          { "czechBefore": "", "czechAfter": " je Karlův most?", "english": "Where is Charles Bridge?", "blanks": [{ "id": "b-1", "correctAnswer": "Kde" }] },
+          { "czechBefore": "Jděte", "czechAfter": ", pak doprava.", "english": "Go straight, then right.", "blanks": [{ "id": "b-2", "correctAnswer": "rovně" }] },
+          { "czechBefore": "Je to", "czechAfter": "?", "english": "Is it far?", "blanks": [{ "id": "b-3", "correctAnswer": "daleko" }] }
+        ] },
+        { "type": "flashcards", "cards": [
+          { "id": "fc-1", "front": "Kde je...?", "back": "Where is...?", "exampleSentence": "Kde je nádraží?" },
+          { "id": "fc-2", "front": "rovně", "back": "straight", "exampleSentence": "Jděte rovně." },
+          { "id": "fc-3", "front": "doprava", "back": "right", "exampleSentence": "Zahněte doprava." },
+          { "id": "fc-4", "front": "doleva", "back": "left", "exampleSentence": "Je to doleva." },
+          { "id": "fc-5", "front": "daleko", "back": "far", "exampleSentence": "Není to daleko." },
+          { "id": "fc-6", "front": "pěšky", "back": "on foot", "exampleSentence": "Pět minut pěšky." }
+        ] },
+        { "type": "pronunciation", "tips": [
+          { "focus": "ů", "description": "The 'ů' in 'Karlův' is a long 'oo' sound. It always appears mid-word (unlike 'ú' which can appear at the start).", "czechExamples": ["Karlův", "dům", "stůl"] }
+        ] }
+      ],
+      "vocabulary": [
+        { "czech": "Kde", "english": "Where", "partOfSpeech": "adverb" },
+        { "czech": "rovně", "english": "straight", "partOfSpeech": "adverb" },
+        { "czech": "doprava", "english": "right", "partOfSpeech": "adverb" },
+        { "czech": "doleva", "english": "left", "partOfSpeech": "adverb" },
+        { "czech": "daleko", "english": "far", "partOfSpeech": "adverb" },
+        { "czech": "pěšky", "english": "on foot", "partOfSpeech": "adverb" }
+      ]
+    }
+  ]
+}
