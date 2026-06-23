@@ -1,3 +1,11 @@
+export interface StoryProgressState {
+  storyId: string;
+  status: 'available' | 'reading' | 'completed';
+  lastReadAt: string | null;
+  comprehensionScore: number;
+  readCount: number;
+}
+
 export interface UserProgress {
   version: number;
   lastUpdated: string;
@@ -10,6 +18,7 @@ export interface UserProgress {
   currentLessonId: string | null;
   modules: Record<string, ModuleProgress>;
   lessons: Record<string, LessonProgress>;
+  stories: Record<string, StoryProgressState>;
   flashcards: Record<string, FlashcardReviewState>;
   badges: string[];
   settings: UserSettings;

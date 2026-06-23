@@ -1,0 +1,972 @@
+{
+  "stories": [
+    {
+      "id": "story-01",
+      "moduleId": "01-greetings",
+      "title": "Setkání v kavárně",
+      "titleEn": "Meeting in a Café",
+      "difficulty": "beginner",
+      "estimatedMinutes": 5,
+      "estimatedWords": 85,
+      "description": "Petr and Eva meet in a Prague café and exchange greetings and introductions.",
+      "paragraphs": [
+        {
+          "id": "p1",
+          "czech": "Petr a Eva sedí v kavárně v Praze.",
+          "english": "Petr and Eva sit in a café in Prague.",
+          "sentences": [
+            {
+              "id": "s1",
+              "czech": "Petr a Eva sedí v kavárně v Praze.",
+              "english": "Petr and Eva sit in a café in Prague."
+            }
+          ]
+        },
+        {
+          "id": "p2",
+          "czech": "\"Dobrý den,\" řekne Petr. \"Jak se máte?\"",
+          "english": "\"Good day,\" says Petr. \"How are you?\"",
+          "sentences": [
+            {
+              "id": "s2",
+              "czech": "\"Dobrý den,\" řekne Petr.",
+              "english": "\"Good day,\" says Petr."
+            },
+            {
+              "id": "s3",
+              "czech": "\"Jak se máte?\"",
+              "english": "\"How are you?\""
+            }
+          ]
+        },
+        {
+          "id": "p3",
+          "czech": "\"Dobře, děkuji. A vy?\" odpovídá Eva. \"Také dobře.\"",
+          "english": "\"Well, thank you. And you?\" answers Eva. \"Also well.\"",
+          "sentences": [
+            {
+              "id": "s4",
+              "czech": "\"Dobře, děkuji. A vy?\" odpovídá Eva.",
+              "english": "\"Well, thank you. And you?\" answers Eva."
+            },
+            {
+              "id": "s5",
+              "czech": "\"Také dobře.\"",
+              "english": "\"Also well.\""
+            }
+          ]
+        },
+        {
+          "id": "p4",
+          "czech": "Petr řekne: \"Jmenuji se Petr. A vy?\"",
+          "english": "Petr says: \"My name is Petr. And you?\"",
+          "sentences": [
+            {
+              "id": "s6",
+              "czech": "Petr řekne: \"Jmenuji se Petr.\"",
+              "english": "Petr says: \"My name is Petr.\""
+            },
+            {
+              "id": "s7",
+              "czech": "\"A vy?\"",
+              "english": "\"And you?\""
+            }
+          ]
+        },
+        {
+          "id": "p5",
+          "czech": "\"Jmenuji se Eva,\" odpovídá. \"Těší mě.\"",
+          "english": "\"My name is Eva,\" she answers. \"Pleased to meet you.\"",
+          "sentences": [
+            {
+              "id": "s8",
+              "czech": "\"Jmenuji se Eva,\" odpovídá.",
+              "english": "\"My name is Eva,\" she answers."
+            },
+            {
+              "id": "s9",
+              "czech": "\"Těší mě.\"",
+              "english": "\"Pleased to meet you.\""
+            }
+          ]
+        },
+        {
+          "id": "p6",
+          "czech": "\"Odkud jste?\" ptá se Petr. \"Jsem z Ameriky,\" říká Eva.",
+          "english": "\"Where are you from?\" asks Petr. \"I am from America,\" says Eva.",
+          "sentences": [
+            {
+              "id": "s10",
+              "czech": "\"Odkud jste?\" ptá se Petr.",
+              "english": "\"Where are you from?\" asks Petr."
+            },
+            {
+              "id": "s11",
+              "czech": "\"Jsem z Ameriky,\" říká Eva.",
+              "english": "\"I am from America,\" says Eva."
+            }
+          ]
+        },
+        {
+          "id": "p7",
+          "czech": "\"A já jsem z Anglie,\" říká Petr. \"Je to hezké tady v Praze!\"",
+          "english": "\"And I am from England,\" says Petr. \"It is nice here in Prague!\"",
+          "sentences": [
+            {
+              "id": "s12",
+              "czech": "\"A já jsem z Anglie,\" říká Petr.",
+              "english": "\"And I am from England,\" says Petr."
+            },
+            {
+              "id": "s13",
+              "czech": "\"Je to hezké tady v Praze!\"",
+              "english": "\"It is nice here in Prague!\""
+            }
+          ]
+        }
+      ],
+      "vocabulary": [
+        { "word": "kavárně", "pos": "noun", "english": "café (locative case)", "notes": "Location: v kavárně = in the café" },
+        { "word": "sedí", "pos": "verb", "english": "sit/sits (present)", "notes": "3rd person singular present" },
+        { "word": "řekne", "pos": "verb", "english": "says/will say (future perfective)", "notes": "Future aspect expressing the action" },
+        { "word": "odpovídá", "pos": "verb", "english": "answers (present)", "notes": "3rd person singular imperfective" },
+        { "word": "ptá se", "pos": "verb", "english": "asks (present reflexive)", "notes": "3rd person singular" },
+        { "word": "hezké", "pos": "adjective", "english": "nice/beautiful (neuter)", "notes": "Matches neuter noun 'to' (it)" },
+        { "word": "tady", "pos": "adverb", "english": "here", "notes": "Indicates location" }
+      ]
+    },
+    {
+      "id": "story-02",
+      "moduleId": "02-food-ordering",
+      "title": "Oběd v restauraci",
+      "titleEn": "Lunch at a Restaurant",
+      "difficulty": "elementary",
+      "estimatedMinutes": 8,
+      "estimatedWords": 150,
+      "description": "Petr and Eva order lunch at a Prague restaurant. They ask the waiter for recommendations, discuss menu items, and handle payment.",
+      "paragraphs": [
+        {
+          "id": "p1",
+          "czech": "Petr a Eva jdou do restaurace. \"Dobrý den. Máte stůl?\" ptá se Petr.",
+          "english": "Petr and Eva go to a restaurant. \"Good day. Do you have a table?\" asks Petr.",
+          "sentences": [
+            { "id": "s1", "czech": "Petr a Eva jdou do restaurace.", "english": "Petr and Eva go to a restaurant." },
+            { "id": "s2", "czech": "\"Dobrý den. Máte stůl?\" ptá se Petr.", "english": "\"Good day. Do you have a table?\" asks Petr." }
+          ]
+        },
+        {
+          "id": "p2",
+          "czech": "\"Ano, samozřejmě!\" říká číšník. \"Tady je menu.\"",
+          "english": "\"Yes, of course!\" says the waiter. \"Here is the menu.\"",
+          "sentences": [
+            { "id": "s3", "czech": "\"Ano, samozřejmě!\" říká číšník.", "english": "\"Yes, of course!\" says the waiter." },
+            { "id": "s4", "czech": "\"Tady je menu.\"", "english": "\"Here is the menu.\"" }
+          ]
+        },
+        {
+          "id": "p3",
+          "czech": "Petr čte menu. \"Co doporučujete?\" ptá se. Číšník říká: \"Guláš je velmi dobrý!\"",
+          "english": "Petr reads the menu. \"What do you recommend?\" he asks. The waiter says: \"The goulash is very good!\"",
+          "sentences": [
+            { "id": "s5", "czech": "Petr čte menu.", "english": "Petr reads the menu." },
+            { "id": "s6", "czech": "\"Co doporučujete?\" ptá se.", "english": "\"What do you recommend?\" he asks." },
+            { "id": "s7", "czech": "Číšník říká: \"Guláš je velmi dobrý!\"", "english": "The waiter says: \"The goulash is very good!\"" }
+          ]
+        },
+        {
+          "id": "p4",
+          "czech": "\"Já chci guláš,\" říká Petr. \"A ty, Evo? Co chceš ty?\"",
+          "english": "\"I want goulash,\" says Petr. \"And you, Eva? What do you want?\"",
+          "sentences": [
+            { "id": "s8", "czech": "\"Já chci guláš,\" říká Petr.", "english": "\"I want goulash,\" says Petr." },
+            { "id": "s9", "czech": "\"A ty, Evo? Co chceš ty?\"", "english": "\"And you, Eva? What do you want?\"" }
+          ]
+        },
+        {
+          "id": "p5",
+          "czech": "Eva říká: \"Já chci rajskou polévku a kuřecí řízek.\" Číšník píše objednávku.",
+          "english": "Eva says: \"I want tomato soup and chicken cutlet.\" The waiter writes down the order.",
+          "sentences": [
+            { "id": "s10", "czech": "Eva říká: \"Já chci rajskou polévku a kuřecí řízek.\"", "english": "Eva says: \"I want tomato soup and chicken cutlet.\"" },
+            { "id": "s11", "czech": "Číšník píše objednávku.", "english": "The waiter writes down the order." }
+          ]
+        },
+        {
+          "id": "p6",
+          "czech": "\"Chcete pít něco?\" ptá se číšník. \"Ano, dvě piva, prosím,\" říká Petr.",
+          "english": "\"Do you want to drink something?\" asks the waiter. \"Yes, two beers, please,\" says Petr.",
+          "sentences": [
+            { "id": "s12", "czech": "\"Chcete pít něco?\" ptá se číšník.", "english": "\"Do you want to drink something?\" asks the waiter." },
+            { "id": "s13", "czech": "\"Ano, dvě piva, prosím,\" říká Petr.", "english": "\"Yes, two beers, please,\" says Petr." }
+          ]
+        },
+        {
+          "id": "p7",
+          "czech": "Jidlo přichází. \"Mňam! Je to opravdu dobré!\" říká Eva. Petr souhlasí: \"Ano, je to vynikající!\"",
+          "english": "The food arrives. \"Yum! It is really good!\" says Eva. Petr agrees: \"Yes, it is excellent!\"",
+          "sentences": [
+            { "id": "s14", "czech": "Jidlo přichází.", "english": "The food arrives." },
+            { "id": "s15", "czech": "\"Mňam! Je to opravdu dobré!\" říká Eva.", "english": "\"Yum! It is really good!\" says Eva." },
+            { "id": "s16", "czech": "Petr souhlasí: \"Ano, je to vynikající!\"", "english": "Petr agrees: \"Yes, it is excellent!\"" }
+          ]
+        },
+        {
+          "id": "p8",
+          "czech": "Po obědě Petr ptá: \"Kolik to stojí?\" Číšník říká: \"Je to 450 korun.\" Petr dá spropitné.",
+          "english": "After lunch, Petr asks: \"How much does it cost?\" The waiter says: \"It is 450 crowns.\" Petr gives a tip.",
+          "sentences": [
+            { "id": "s17", "czech": "Po obědě Petr ptá: \"Kolik to stojí?\"", "english": "After lunch, Petr asks: \"How much does it cost?\"" },
+            { "id": "s18", "czech": "Číšník říká: \"Je to 450 korun.\"", "english": "The waiter says: \"It is 450 crowns.\"" },
+            { "id": "s19", "czech": "Petr dá spropitné.", "english": "Petr gives a tip." }
+          ]
+        }
+      ],
+      "vocabulary": [
+        { "word": "jdou", "pos": "verb", "english": "go (present, 3rd person plural)", "notes": "From jít (to go)" },
+        { "word": "číšník", "pos": "noun", "english": "waiter", "notes": "Masculine noun" },
+        { "word": "menu", "pos": "noun", "english": "menu", "notes": "Borrowed word, neuter" },
+        { "word": "čte", "pos": "verb", "english": "reads (present)", "notes": "3rd person singular of číst" },
+        { "word": "doporučujete", "pos": "verb", "english": "recommend (present formal)", "notes": "Formal second person plural" },
+        { "word": "guláš", "pos": "noun", "english": "goulash", "notes": "Czech national dish" },
+        { "word": "chci", "pos": "verb", "english": "want (present)", "notes": "1st person singular" },
+        { "word": "rajská polévka", "pos": "noun", "english": "tomato soup", "notes": "Literally 'paradise soup'" },
+        { "word": "kuřecí řízek", "pos": "noun", "english": "chicken cutlet", "notes": "Popular Czech dish" },
+        { "word": "píše", "pos": "verb", "english": "writes (present)", "notes": "3rd person singular" },
+        { "word": "pít", "pos": "verb", "english": "drink (infinitive)", "notes": "Used with chcete" },
+        { "word": "přichází", "pos": "verb", "english": "arrives (present)", "notes": "3rd person singular of přijít" },
+        { "word": "opravdu", "pos": "adverb", "english": "really/truly", "notes": "Intensifier" },
+        { "word": "vynikající", "pos": "adjective", "english": "excellent", "notes": "Compliment for food" },
+        { "word": "korun", "pos": "noun", "english": "crowns (Czech currency, genitive plural)", "notes": "Unit: koruna" },
+        { "word": "spropitné", "pos": "noun", "english": "tip/gratuity", "notes": "Common custom in Czech Republic" }
+      ]
+    },
+    {
+      "id": "story-03",
+      "moduleId": "03-getting-around",
+      "title": "Cesta tramvají",
+      "titleEn": "Tram Journey",
+      "difficulty": "elementary",
+      "estimatedMinutes": 8,
+      "estimatedWords": 140,
+      "description": "A tourist asks for directions to Wenceslas Square, buys a tram ticket, and travels through Prague's neighborhoods.",
+      "paragraphs": [
+        {
+          "id": "p1",
+          "czech": "Turista stojí na ulici v Praze. Není si jistý, kam jít. \"Prosím, kde je Václavské náměstí?\" ptá se.",
+          "english": "A tourist stands on a street in Prague. He is not sure where to go. \"Please, where is Wenceslas Square?\" he asks.",
+          "sentences": [
+            { "id": "s1", "czech": "Turista stojí na ulici v Praze.", "english": "A tourist stands on a street in Prague." },
+            { "id": "s2", "czech": "Není si jistý, kam jít.", "english": "He is not sure where to go." },
+            { "id": "s3", "czech": "\"Prosím, kde je Václavské náměstí?\" ptá se.", "english": "\"Please, where is Wenceslas Square?\" he asks." }
+          ]
+        },
+        {
+          "id": "p2",
+          "czech": "Paní odpovídá: \"Je to daleko. Jděte tramvají! Číslo 3 je správná linka.\"",
+          "english": "A woman answers: \"It is far. Go by tram! Number 3 is the correct line.\"",
+          "sentences": [
+            { "id": "s4", "czech": "Paní odpovídá: \"Je to daleko.\"", "english": "A woman answers: \"It is far.\"" },
+            { "id": "s5", "czech": "\"Jděte tramvají!\"", "english": "\"Go by tram!\"" },
+            { "id": "s6", "czech": "\"Číslo 3 je správná linka.\"", "english": "\"Number 3 is the correct line.\"" }
+          ]
+        },
+        {
+          "id": "p3",
+          "czech": "\"Kde koupím lístek?\" ptá se turista. \"V automatu tady,\" říká paní. \"Jeden lístek stojí 30 korun.\"",
+          "english": "\"Where do I buy a ticket?\" asks the tourist. \"In the machine here,\" says the woman. \"One ticket costs 30 crowns.\"",
+          "sentences": [
+            { "id": "s7", "czech": "\"Kde koupím lístek?\" ptá se turista.", "english": "\"Where do I buy a ticket?\" asks the tourist." },
+            { "id": "s8", "czech": "\"V automatu tady,\" říká paní.", "english": "\"In the machine here,\" says the woman." },
+            { "id": "s9", "czech": "\"Jeden lístek stojí 30 korun.\"", "english": "\"One ticket costs 30 crowns.\"" }
+          ]
+        },
+        {
+          "id": "p4",
+          "czech": "Turista koupí lístek a čeká na tramvaj. \"Tady přichází tramvaj číslo 3!\" Sedá si do tramvaje.",
+          "english": "The tourist buys a ticket and waits for the tram. \"Here comes tram number 3!\" He sits down in the tram.",
+          "sentences": [
+            { "id": "s10", "czech": "Turista koupí lístek a čeká na tramvaj.", "english": "The tourist buys a ticket and waits for the tram." },
+            { "id": "s11", "czech": "\"Tady přichází tramvaj číslo 3!\"", "english": "\"Here comes tram number 3!\"" },
+            { "id": "s12", "czech": "Sedá si do tramvaje.", "english": "He sits down in the tram." }
+          ]
+        },
+        {
+          "id": "p5",
+          "czech": "V tramvaji je mnoho lidí. Turista vidí krásné budovy. \"Wow, jak je Praha hezká!\" říká.",
+          "english": "There are many people in the tram. The tourist sees beautiful buildings. \"Wow, how beautiful Prague is!\" he says.",
+          "sentences": [
+            { "id": "s13", "czech": "V tramvaji je mnoho lidí.", "english": "There are many people in the tram." },
+            { "id": "s14", "czech": "Turista vidí krásné budovy.", "english": "The tourist sees beautiful buildings." },
+            { "id": "s15", "czech": "\"Wow, jak je Praha hezká!\" říká.", "english": "\"Wow, how beautiful Prague is!\" he says." }
+          ]
+        },
+        {
+          "id": "p6",
+          "czech": "Zástupce hlásá: \"Václavské náměstí! Zde je Václavské náměstí!\" Turista vstává a říká: \"Děkuji!\"",
+          "english": "The conductor announces: \"Wenceslas Square! Here is Wenceslas Square!\" The tourist stands up and says: \"Thank you!\"",
+          "sentences": [
+            { "id": "s16", "czech": "Zástupce hlásá: \"Václavské náměstí!\"", "english": "The conductor announces: \"Wenceslas Square!\"" },
+            { "id": "s17", "czech": "\"Zde je Václavské náměstí!\"", "english": "\"Here is Wenceslas Square!\"" },
+            { "id": "s18", "czech": "Turista vstává a říká: \"Děkuji!\"", "english": "The tourist stands up and says: \"Thank you!\"" }
+          ]
+        },
+        {
+          "id": "p7",
+          "czech": "Turista vylézá z tramvaje. Vidí Václavské náměstí - velké, krásné, plné lidí. \"To je úžasné!\" myslí si.",
+          "english": "The tourist gets off the tram. He sees Wenceslas Square - large, beautiful, full of people. \"That is amazing!\" he thinks.",
+          "sentences": [
+            { "id": "s19", "czech": "Turista vylézá z tramvaje.", "english": "The tourist gets off the tram." },
+            { "id": "s20", "czech": "Vidí Václavské náměstí - velké, krásné, plné lidí.", "english": "He sees Wenceslas Square - large, beautiful, full of people." },
+            { "id": "s21", "czech": "\"To je úžasné!\" myslí si.", "english": "\"That is amazing!\" he thinks." }
+          ]
+        }
+      ],
+      "vocabulary": [
+        { "word": "turista", "pos": "noun", "english": "tourist", "notes": "Masculine noun" },
+        { "word": "stojí", "pos": "verb", "english": "stands (present)", "notes": "3rd person singular of stát" },
+        { "word": "ulici", "pos": "noun", "english": "street (locative)", "notes": "Location: na ulici = on the street" },
+        { "word": "Václavské náměstí", "pos": "noun", "english": "Wenceslas Square", "notes": "Famous Prague landmark" },
+        { "word": "tramvají", "pos": "noun", "english": "tram/streetcar (instrumental)", "notes": "Mode of transport: jet tramvají = to go by tram" },
+        { "word": "linka", "pos": "noun", "english": "line/route", "notes": "Transit terminology" },
+        { "word": "lístek", "pos": "noun", "english": "ticket", "notes": "Short-term travel ticket" },
+        { "word": "automat", "pos": "noun", "english": "machine/vending machine", "notes": "Self-service ticket machine" },
+        { "word": "koupím", "pos": "verb", "english": "buy (future/perfective present)", "notes": "1st person singular of koupit" },
+        { "word": "čeká", "pos": "verb", "english": "waits (present)", "notes": "3rd person singular" },
+        { "word": "sedá si", "pos": "verb", "english": "sits down (present reflexive)", "notes": "3rd person singular of sedat si" },
+        { "word": "budovy", "pos": "noun", "english": "buildings (plural)", "notes": "Beautiful Prague architecture" },
+        { "word": "krásné", "pos": "adjective", "english": "beautiful (plural neuter/feminine)", "notes": "Descriptive" },
+        { "word": "zástupce", "pos": "noun", "english": "conductor (of tram)", "notes": "Transit worker" },
+        { "word": "hlásá", "pos": "verb", "english": "announces (present)", "notes": "3rd person singular" },
+        { "word": "vstává", "pos": "verb", "english": "stands up (present)", "notes": "3rd person singular of vstávat" },
+        { "word": "vylézá", "pos": "verb", "english": "gets off (present)", "notes": "3rd person singular of vylézat" },
+        { "word": "úžasné", "pos": "adjective", "english": "amazing/wonderful", "notes": "Expression of amazement" },
+        { "word": "myslí si", "pos": "verb", "english": "thinks (present reflexive)", "notes": "3rd person singular internal thought" }
+      ]
+    },
+    {
+      "id": "story-04",
+      "moduleId": "04-hotel-checkin",
+      "title": "Přijetí v hotelu",
+      "titleEn": "Hotel Check-In",
+      "difficulty": "elementary",
+      "estimatedMinutes": 8,
+      "estimatedWords": 160,
+      "description": "Petr and Eva arrive at a Prague hotel, check in, discuss their room, and ask about amenities and breakfast.",
+      "paragraphs": [
+        {
+          "id": "p1",
+          "czech": "Petr a Eva přicházejí do hotelu. Jsou unavení po dlouhé cestě. \"Dobrý den! Máme rezervaci,\" říká Petr.",
+          "english": "Petr and Eva arrive at a hotel. They are tired after a long journey. \"Good day! We have a reservation,\" says Petr.",
+          "sentences": [
+            { "id": "s1", "czech": "Petr a Eva přicházejí do hotelu.", "english": "Petr and Eva arrive at a hotel." },
+            { "id": "s2", "czech": "Jsou unavení po dlouhé cestě.", "english": "They are tired after a long journey." },
+            { "id": "s3", "czech": "\"Dobrý den! Máme rezervaci,\" říká Petr.", "english": "\"Good day! We have a reservation,\" says Petr." }
+          ]
+        },
+        {
+          "id": "p2",
+          "czech": "Recepční se usmívá. \"Samozřejmě! Na jaké jméno je rezervace?\" Petr odpovídá: \"Na jméno Petr Brown.\"",
+          "english": "The receptionist smiles. \"Of course! Under what name is the reservation?\" Petr answers: \"Under the name Petr Brown.\"",
+          "sentences": [
+            { "id": "s4", "czech": "Recepční se usmívá.", "english": "The receptionist smiles." },
+            { "id": "s5", "czech": "\"Samozřejmě! Na jaké jméno je rezervace?\"", "english": "\"Of course! Under what name is the reservation?\"" },
+            { "id": "s6", "czech": "Petr odpovídá: \"Na jméno Petr Brown.\"", "english": "Petr answers: \"Under the name Petr Brown.\"" }
+          ]
+        },
+        {
+          "id": "p3",
+          "czech": "Recepční píše v počítači. \"Ano, tady je! Máte pokoj číslo 305 v třetím patře. Je to dvoulůžkový pokoj.\"",
+          "english": "The receptionist types in the computer. \"Yes, here it is! You have room number 305 on the third floor. It is a double room.\"",
+          "sentences": [
+            { "id": "s7", "czech": "Recepční píše v počítači.", "english": "The receptionist types in the computer." },
+            { "id": "s8", "czech": "\"Ano, tady je!\"", "english": "\"Yes, here it is!\"" },
+            { "id": "s9", "czech": "\"Máte pokoj číslo 305 v třetím patře.\"", "english": "\"You have room number 305 on the third floor.\"" },
+            { "id": "s10", "czech": "\"Je to dvoulůžkový pokoj.\"", "english": "\"It is a double room.\"" }
+          ]
+        },
+        {
+          "id": "p4",
+          "czech": "\"To je perfektní!\" říká Eva. \"Má pokoj koupelnu?\" Recepční odpovídá: \"Ano, má vlastní koupelnu a sprchu.\"",
+          "english": "\"That is perfect!\" says Eva. \"Does the room have a bathroom?\" The receptionist answers: \"Yes, it has its own bathroom and shower.\"",
+          "sentences": [
+            { "id": "s11", "czech": "\"To je perfektní!\" říká Eva.", "english": "\"That is perfect!\" says Eva." },
+            { "id": "s12", "czech": "\"Má pokoj koupelnu?\"", "english": "\"Does the room have a bathroom?\"" },
+            { "id": "s13", "czech": "Recepční odpovídá: \"Ano, má vlastní koupelnu a sprchu.\"", "english": "The receptionist answers: \"Yes, it has its own bathroom and shower.\"" }
+          ]
+        },
+        {
+          "id": "p5",
+          "czech": "\"Jaký máte WiFi?\" ptá se Petr. \"WiFi je zdarma. Heslo je 'Hotel2024',\" říká recepční.",
+          "english": "\"What WiFi do you have?\" asks Petr. \"WiFi is free. The password is 'Hotel2024',\" says the receptionist.",
+          "sentences": [
+            { "id": "s14", "czech": "\"Jaký máte WiFi?\" ptá se Petr.", "english": "\"What WiFi do you have?\" asks Petr." },
+            { "id": "s15", "czech": "\"WiFi je zdarma.\"", "english": "\"WiFi is free.\"" },
+            { "id": "s16", "czech": "\"Heslo je 'Hotel2024',\" říká recepční.", "english": "\"The password is 'Hotel2024',\" says the receptionist." }
+          ]
+        },
+        {
+          "id": "p6",
+          "czech": "\"Kdy je snídaně?\" ptá se Eva. \"Snídaně je od 6:30 do 10:00. Jídelna je v přízemí,\" odpovídá recepční.",
+          "english": "\"When is breakfast?\" asks Eva. \"Breakfast is from 6:30 to 10:00. The dining room is on the ground floor,\" answers the receptionist.",
+          "sentences": [
+            { "id": "s17", "czech": "\"Kdy je snídaně?\" ptá se Eva.", "english": "\"When is breakfast?\" asks Eva." },
+            { "id": "s18", "czech": "\"Snídaně je od 6:30 do 10:00.\"", "english": "\"Breakfast is from 6:30 to 10:00.\"" },
+            { "id": "s19", "czech": "\"Jídelna je v přízemí,\" odpovídá recepční.", "english": "\"The dining room is on the ground floor,\" answers the receptionist." }
+          ]
+        },
+        {
+          "id": "p7",
+          "czech": "Petr a Eva berou klíč. \"Děkujeme! Takže pokoj 305,\" říká Petr. \"Přesně! Výtah je tady. Vítáme vás!\" říká recepční.",
+          "english": "Petr and Eva take the key. \"Thank you! So room 305,\" says Petr. \"Exactly! The elevator is here. Welcome!\" says the receptionist.",
+          "sentences": [
+            { "id": "s20", "czech": "Petr a Eva berou klíč.", "english": "Petr and Eva take the key." },
+            { "id": "s21", "czech": "\"Děkujeme! Takže pokoj 305,\" říká Petr.", "english": "\"Thank you! So room 305,\" says Petr." },
+            { "id": "s22", "czech": "\"Přesně! Výtah je tady.\"", "english": "\"Exactly! The elevator is here.\"" },
+            { "id": "s23", "czech": "\"Vítáme vás!\" říká recepční.", "english": "\"Welcome!\" says the receptionist." }
+          ]
+        }
+      ],
+      "vocabulary": [
+        { "word": "přicházejí", "pos": "verb", "english": "arrive (present)", "notes": "3rd person plural of přicházet" },
+        { "word": "unavení", "pos": "adjective", "english": "tired", "notes": "Masculine plural past participle state" },
+        { "word": "cestě", "pos": "noun", "english": "journey/trip (locative)", "notes": "Location: po cestě = after/during the trip" },
+        { "word": "rezervaci", "pos": "noun", "english": "reservation (accusative)", "notes": "Hotel booking" },
+        { "word": "recepční", "pos": "noun", "english": "receptionist", "notes": "Hotel staff member" },
+        { "word": "usmívá", "pos": "verb", "english": "smiles (present reflexive)", "notes": "3rd person singular" },
+        { "word": "jméno", "pos": "noun", "english": "name", "notes": "Neuter noun" },
+        { "word": "počítači", "pos": "noun", "english": "computer (locative)", "notes": "Location: v počítači = in the computer" },
+        { "word": "patře", "pos": "noun", "english": "floor (locative)", "notes": "Location: v patře = on the floor" },
+        { "word": "dvoulůžkový", "pos": "adjective", "english": "double (two-bed)", "notes": "Room type" },
+        { "word": "koupelnu", "pos": "noun", "english": "bathroom (accusative)", "notes": "Essential room amenity" },
+        { "word": "sprchu", "pos": "noun", "english": "shower (accusative)", "notes": "Bathing facility" },
+        { "word": "WiFi", "pos": "noun", "english": "WiFi/wireless internet", "notes": "Modern hotel service" },
+        { "word": "zdarma", "pos": "adverb", "english": "free/complimentary", "notes": "No cost" },
+        { "word": "heslo", "pos": "noun", "english": "password", "notes": "WiFi access code" },
+        { "word": "snídaně", "pos": "noun", "english": "breakfast", "notes": "Morning meal" },
+        { "word": "jídelna", "pos": "noun", "english": "dining room", "notes": "Where breakfast is served" },
+        { "word": "přízemí", "pos": "noun", "english": "ground floor", "notes": "Building level terminology" },
+        { "word": "berou", "pos": "verb", "english": "take (present)", "notes": "3rd person plural of brát" },
+        { "word": "klíč", "pos": "noun", "english": "key", "notes": "Room access" },
+        { "word": "výtah", "pos": "noun", "english": "elevator", "notes": "Lift/lift" },
+        { "word": "vítáme", "pos": "verb", "english": "welcome (present)", "notes": "1st person plural of vítati" }
+      ]
+    },
+    {
+      "id": "story-05",
+      "moduleId": "05-small-talk",
+      "title": "Rozhovor v kavárně",
+      "titleEn": "Conversation in a Café",
+      "difficulty": "intermediate",
+      "estimatedMinutes": 10,
+      "estimatedWords": 180,
+      "description": "Petr and Eva chat with a local Czech woman about their families, work, and interests while having coffee.",
+      "paragraphs": [
+        {
+          "id": "p1",
+          "czech": "Petr a Eva sedí v kavárně. Vedle nich sedí paní Petra, která je z Prahy. \"Ahoj! Jsem Petra,\" říká.",
+          "english": "Petr and Eva sit in a café. Next to them sits Mrs. Petra, who is from Prague. \"Hi! I am Petra,\" she says.",
+          "sentences": [
+            { "id": "s1", "czech": "Petr a Eva sedí v kavárně.", "english": "Petr and Eva sit in a café." },
+            { "id": "s2", "czech": "Vedle nich sedí paní Petra, která je z Prahy.", "english": "Next to them sits Mrs. Petra, who is from Prague." },
+            { "id": "s3", "czech": "\"Ahoj! Jsem Petra,\" říká.", "english": "\"Hi! I am Petra,\" she says." }
+          ]
+        },
+        {
+          "id": "p2",
+          "czech": "\"Ahoj, Petro! Jmenuji se Petr a toto je Eva,\" říká Petr. \"Potěšeny! Odkud jste?\" ptá se Petra.",
+          "english": "\"Hi, Petra! My name is Petr and this is Eva,\" says Petr. \"Nice to meet you! Where are you from?\" asks Petra.",
+          "sentences": [
+            { "id": "s4", "czech": "\"Ahoj, Petro!\"", "english": "\"Hi, Petra!\"" },
+            { "id": "s5", "czech": "\"Jmenuji se Petr a toto je Eva,\" říká Petr.", "english": "\"My name is Petr and this is Eva,\" says Petr." },
+            { "id": "s6", "czech": "\"Potěšeny! Odkud jste?\" ptá se Petra.", "english": "\"Nice to meet you! Where are you from?\" asks Petra." }
+          ]
+        },
+        {
+          "id": "p3",
+          "czech": "\"Jsem z Anglie a Eva je z Ameriky,\" odpovídá Petr. \"Jak dlouho jste tady v Praze?\" \"Tři týdny,\" říká Eva.",
+          "english": "\"I am from England and Eva is from America,\" answers Petr. \"How long are you here in Prague?\" \"Three weeks,\" says Eva.",
+          "sentences": [
+            { "id": "s7", "czech": "\"Jsem z Anglie a Eva je z Ameriky,\" odpovídá Petr.", "english": "\"I am from England and Eva is from America,\" answers Petr." },
+            { "id": "s8", "czech": "\"Jak dlouho jste tady v Praze?\"", "english": "\"How long are you here in Prague?\"" },
+            { "id": "s9", "czech": "\"Tři týdny,\" říká Eva.", "english": "\"Three weeks,\" says Eva." }
+          ]
+        },
+        {
+          "id": "p4",
+          "czech": "\"To je krásné!\" říká Petra. \"Co děláte v Anglii?\" \"Jsem učitel,\" odpovídá Petr. \"Učím angličtinu.\"",
+          "english": "\"That is wonderful!\" says Petra. \"What do you do in England?\" \"I am a teacher,\" answers Petr. \"I teach English.\"",
+          "sentences": [
+            { "id": "s10", "czech": "\"To je krásné!\" říká Petra.", "english": "\"That is wonderful!\" says Petra." },
+            { "id": "s11", "czech": "\"Co děláte v Anglii?\"", "english": "\"What do you do in England?\"" },
+            { "id": "s12", "czech": "\"Jsem učitel,\" odpovídá Petr.", "english": "\"I am a teacher,\" answers Petr." },
+            { "id": "s13", "czech": "\"Učím angličtinu.\"", "english": "\"I teach English.\"" }
+          ]
+        },
+        {
+          "id": "p5",
+          "czech": "\"A já pracuji jako lékařka,\" říká Eva. \"To je zajímavé!\" říká Petra. \"Máte rodinu?\" \"Ano, máme dvě děti,\" říká Petr.",
+          "english": "\"And I work as a doctor,\" says Eva. \"That is interesting!\" says Petra. \"Do you have a family?\" \"Yes, we have two children,\" says Petr.",
+          "sentences": [
+            { "id": "s14", "czech": "\"A já pracuji jako lékařka,\" říká Eva.", "english": "\"And I work as a doctor,\" says Eva." },
+            { "id": "s15", "czech": "\"To je zajímavé!\" říká Petra.", "english": "\"That is interesting!\" says Petra." },
+            { "id": "s16", "czech": "\"Máte rodinu?\"", "english": "\"Do you have a family?\"" },
+            { "id": "s17", "czech": "\"Ano, máme dvě děti,\" říká Petr.", "english": "\"Yes, we have two children,\" says Petr." }
+          ]
+        },
+        {
+          "id": "p6",
+          "czech": "\"A já bydlím tady s mou matkou. Moje matka je důchodkyně,\" říká Petra. \"Má matka je také důchodkyně,\" říká Petr.",
+          "english": "\"And I live here with my mother. My mother is retired,\" says Petra. \"My mother is also retired,\" says Petr.",
+          "sentences": [
+            { "id": "s18", "czech": "\"A já bydlím tady s mou matkou.\"", "english": "\"And I live here with my mother.\"" },
+            { "id": "s19", "czech": "\"Moje matka je důchodkyně,\" říká Petra.", "english": "\"My mother is retired,\" says Petra." },
+            { "id": "s20", "czech": "\"Má matka je také důchodkyně,\" říká Petr.", "english": "\"My mother is also retired,\" says Petr." }
+          ]
+        },
+        {
+          "id": "p7",
+          "czech": "\"Co máte rádi? Jaké máte záliby?\" ptá se Petra. \"Já miluji fotbal,\" říká Petr. \"A já čtu knihy,\" říká Eva.",
+          "english": "\"What do you like? What are your hobbies?\" asks Petra. \"I love football,\" says Petr. \"And I read books,\" says Eva.",
+          "sentences": [
+            { "id": "s21", "czech": "\"Co máte rádi?\"", "english": "\"What do you like?\"" },
+            { "id": "s22", "czech": "\"Jaké máte záliby?\" ptá se Petra.", "english": "\"What are your hobbies?\" asks Petra." },
+            { "id": "s23", "czech": "\"Já miluji fotbal,\" říká Petr.", "english": "\"I love football,\" says Petr." },
+            { "id": "s24", "czech": "\"A já čtu knihy,\" říká Eva.", "english": "\"And I read books,\" says Eva." }
+          ]
+        },
+        {
+          "id": "p8",
+          "czech": "\"To je skvělé! Praha má krásné parky pro fotbal a krásné knihovny,\" říká Petra. \"Chcete se sejít zase?\" \"Ano, s radostí!\" říkají oba.",
+          "english": "\"That is great! Prague has beautiful parks for football and beautiful libraries,\" says Petra. \"Do you want to meet again?\" \"Yes, with pleasure!\" they both say.",
+          "sentences": [
+            { "id": "s25", "czech": "\"To je skvělé!\"", "english": "\"That is great!\"" },
+            { "id": "s26", "czech": "\"Praha má krásné parky pro fotbal a krásné knihovny,\" říká Petra.", "english": "\"Prague has beautiful parks for football and beautiful libraries,\" says Petra." },
+            { "id": "s27", "czech": "\"Chcete se sejít zase?\"", "english": "\"Do you want to meet again?\"" },
+            { "id": "s28", "czech": "\"Ano, s radostí!\" říkají oba.", "english": "\"Yes, with pleasure!\" they both say." }
+          ]
+        }
+      ],
+      "vocabulary": [
+        { "word": "vedle", "pos": "preposition", "english": "next to/beside", "notes": "Spatial relationship" },
+        { "word": "ahoj", "pos": "interjection", "english": "hi/hello (informal)", "notes": "Casual greeting" },
+        { "word": "potěšeny", "pos": "adjective", "english": "pleased/nice to meet you", "notes": "Feminine plural response to meeting" },
+        { "word": "jak dlouho", "pos": "phrase", "english": "how long", "notes": "Duration question" },
+        { "word": "týdny", "pos": "noun", "english": "weeks (accusative plural)", "notes": "Time measurement" },
+        { "word": "co děláte", "pos": "phrase", "english": "what do you do (formal)", "notes": "Profession inquiry" },
+        { "word": "učitel", "pos": "noun", "english": "teacher (masculine)", "notes": "Profession" },
+        { "word": "učím", "pos": "verb", "english": "teach (present 1st person)", "notes": "Professional activity" },
+        { "word": "angličtinu", "pos": "noun", "english": "English language (accusative)", "notes": "Subject taught" },
+        { "word": "pracuji", "pos": "verb", "english": "work (present 1st person)", "notes": "Employment verb" },
+        { "word": "lékařka", "pos": "noun", "english": "doctor (feminine)", "notes": "Medical profession" },
+        { "word": "zajímavé", "pos": "adjective", "english": "interesting", "notes": "Expression of interest" },
+        { "word": "rodina", "pos": "noun", "english": "family", "notes": "Family unit" },
+        { "word": "děti", "pos": "noun", "english": "children (plural)", "notes": "Offspring" },
+        { "word": "bydlím", "pos": "verb", "english": "live (present 1st person)", "notes": "Residence verb" },
+        { "word": "matka", "pos": "noun", "english": "mother", "notes": "Family relation" },
+        { "word": "důchodkyně", "pos": "noun", "english": "retired woman/pensioner", "notes": "Employment status" },
+        { "word": "záliba", "pos": "noun", "english": "hobby", "notes": "Leisure activity" },
+        { "word": "miluji", "pos": "verb", "english": "love (present 1st person)", "notes": "Strong preference" },
+        { "word": "fotbal", "pos": "noun", "english": "football/soccer", "notes": "Popular sport" },
+        { "word": "čtu", "pos": "verb", "english": "read (present 1st person)", "notes": "Reading activity" },
+        { "word": "knihy", "pos": "noun", "english": "books (plural)", "notes": "Literary works" },
+        { "word": "parky", "pos": "noun", "english": "parks (plural)", "notes": "Public outdoor spaces" },
+        { "word": "knihovny", "pos": "noun", "english": "libraries (plural)", "notes": "Literary institutions" },
+        { "word": "sejít", "pos": "verb", "english": "meet (infinitive perfective)", "notes": "Future meeting" },
+        { "word": "s radostí", "pos": "phrase", "english": "with pleasure/gladly", "notes": "Positive response" },
+        { "word": "oba", "pos": "pronoun", "english": "both (masculine)", "notes": "Inclusive reference" }
+      ]
+    },
+    {
+      "id": "story-06",
+      "moduleId": "06-emergencies",
+      "title": "Nouzový případ",
+      "titleEn": "Emergency Situation",
+      "difficulty": "intermediate",
+      "estimatedMinutes": 10,
+      "estimatedWords": 170,
+      "description": "Petr suddenly feels ill while walking in Prague. He finds a pharmacy and doctor's office to get help.",
+      "paragraphs": [
+        {
+          "id": "p1",
+          "czech": "Petr jde po ulici v Praze. Náhle se necítí dobře. \"Bolí mě hlava a břicho,\" říká si.",
+          "english": "Petr walks down a street in Prague. Suddenly he feels unwell. \"My head and stomach hurt,\" he says to himself.",
+          "sentences": [
+            { "id": "s1", "czech": "Petr jde po ulici v Praze.", "english": "Petr walks down a street in Prague." },
+            { "id": "s2", "czech": "Náhle se necítí dobře.", "english": "Suddenly he feels unwell." },
+            { "id": "s3", "czech": "\"Bolí mě hlava a břicho,\" říká si.", "english": "\"My head and stomach hurt,\" he says to himself." }
+          ]
+        },
+        {
+          "id": "p2",
+          "czech": "Vidí lékárnu. \"Pojď tam,\" myslí si. Vstupuje dovnitř. \"Dobrý den! Potřebuji pomoc,\" říká.",
+          "english": "He sees a pharmacy. \"Let me go there,\" he thinks. He enters. \"Good day! I need help,\" he says.",
+          "sentences": [
+            { "id": "s4", "czech": "Vidí lékárnu.", "english": "He sees a pharmacy." },
+            { "id": "s5", "czech": "\"Pojď tam,\" myslí si.", "english": "\"Let me go there,\" he thinks." },
+            { "id": "s6", "czech": "Vstupuje dovnitř.", "english": "He enters." },
+            { "id": "s7", "czech": "\"Dobrý den! Potřebuji pomoc,\" říká.", "english": "\"Good day! I need help,\" he says." }
+          ]
+        },
+        {
+          "id": "p3",
+          "czech": "Lékárnice se ptá: \"Co se stalo? Co Vám je?\" Petr odpovídá: \"Bolí mě hlava, břicho a cítím se slabý.\"",
+          "english": "The pharmacist asks: \"What happened? What is wrong with you?\" Petr answers: \"My head and stomach hurt and I feel weak.\"",
+          "sentences": [
+            { "id": "s8", "czech": "Lékárnice se ptá: \"Co se stalo?\"", "english": "The pharmacist asks: \"What happened?\"" },
+            { "id": "s9", "czech": "\"Co Vám je?\"", "english": "\"What is wrong with you?\"" },
+            { "id": "s10", "czech": "Petr odpovídá: \"Bolí mě hlava, břicho a cítím se slabý.\"", "english": "Petr answers: \"My head and stomach hurt and I feel weak.\"" }
+          ]
+        },
+        {
+          "id": "p4",
+          "czech": "\"To neznám,\" říká lékárnice. \"Měl by jsi jít k doktorovi. Lékařská ordinace je vedle, o pět minut chůze.\"",
+          "english": "\"I am not sure,\" says the pharmacist. \"You should go to the doctor. The doctor's office is nearby, five minutes walk.\"",
+          "sentences": [
+            { "id": "s11", "czech": "\"To neznám,\" říká lékárnice.", "english": "\"I am not sure,\" says the pharmacist." },
+            { "id": "s12", "czech": "\"Měl by jsi jít k doktorovi.\"", "english": "\"You should go to the doctor.\"" },
+            { "id": "s13", "czech": "\"Lékařská ordinace je vedle, o pět minut chůze.\"", "english": "\"The doctor's office is nearby, five minutes walk.\"" }
+          ]
+        },
+        {
+          "id": "p5",
+          "czech": "Petr jde k doktorovi. Recepční říká: \"Počkejte prosím. Doktor bude za chvíli.\" Petr si sedá a čeká.",
+          "english": "Petr goes to the doctor. The receptionist says: \"Please wait. The doctor will be here soon.\" Petr sits down and waits.",
+          "sentences": [
+            { "id": "s14", "czech": "Petr jde k doktorovi.", "english": "Petr goes to the doctor." },
+            { "id": "s15", "czech": "Recepční říká: \"Počkejte prosím.\"", "english": "The receptionist says: \"Please wait.\"" },
+            { "id": "s16", "czech": "\"Doktor bude za chvíli.\"", "english": "\"The doctor will be here soon.\"" },
+            { "id": "s17", "czech": "Petr si sedá a čeká.", "english": "Petr sits down and waits." }
+          ]
+        },
+        {
+          "id": "p6",
+          "czech": "Doktor vyzývá Petra. \"Tak, co Vám je?\" ptá se. Petr vysvětluje: \"Bolí mě hlava a břicho už tři dny.\"",
+          "english": "The doctor calls Petr. \"So, what is wrong with you?\" he asks. Petr explains: \"My head and stomach have been hurting for three days.\"",
+          "sentences": [
+            { "id": "s18", "czech": "Doktor vyzývá Petra.", "english": "The doctor calls Petr." },
+            { "id": "s19", "czech": "\"Tak, co Vám je?\" ptá se.", "english": "\"So, what is wrong with you?\" he asks." },
+            { "id": "s20", "czech": "Petr vysvětluje: \"Bolí mě hlava a břicho už tři dny.\"", "english": "Petr explains: \"My head and stomach have been hurting for three days.\"" }
+          ]
+        },
+        {
+          "id": "p7",
+          "czech": "Doktor ho vyšetří. \"Máte chřipku,\" říká. \"Musíte odpočívat a pít hodně tekutin. Tady je recept na léky.\"",
+          "english": "The doctor examines him. \"You have the flu,\" he says. \"You must rest and drink plenty of fluids. Here is a prescription for medicine.\"",
+          "sentences": [
+            { "id": "s21", "czech": "Doktor ho vyšetří.", "english": "The doctor examines him." },
+            { "id": "s22", "czech": "\"Máte chřipku,\" říká.", "english": "\"You have the flu,\" he says." },
+            { "id": "s23", "czech": "\"Musíte odpočívat a pít hodně tekutin.\"", "english": "\"You must rest and drink plenty of fluids.\"" },
+            { "id": "s24", "czech": "\"Tady je recept na léky.\"", "english": "\"Here is a prescription for medicine.\"" }
+          ]
+        },
+        {
+          "id": "p8",
+          "czech": "\"Děkuji, doktore,\" říká Petr. \"Kolik vás dlužím?\" \"Nic, je to zdarma v České republice,\" odpovídá doktor. \"Budete brzy zdravý!\"",
+          "english": "\"Thank you, doctor,\" says Petr. \"How much do I owe you?\" \"Nothing, it is free in the Czech Republic,\" answers the doctor. \"You will be well soon!\"",
+          "sentences": [
+            { "id": "s25", "czech": "\"Děkuji, doktore,\" říká Petr.", "english": "\"Thank you, doctor,\" says Petr." },
+            { "id": "s26", "czech": "\"Kolik vás dlužím?\"", "english": "\"How much do I owe you?\"" },
+            { "id": "s27", "czech": "\"Nic, je to zdarma v České republice,\" odpovídá doktor.", "english": "\"Nothing, it is free in the Czech Republic,\" answers the doctor." },
+            { "id": "s28", "czech": "\"Budete brzy zdravý!\"", "english": "\"You will be well soon!\"" }
+          ]
+        }
+      ],
+      "vocabulary": [
+        { "word": "jde", "pos": "verb", "english": "walks/goes (present)", "notes": "3rd person singular" },
+        { "word": "necítí se", "pos": "verb", "english": "feel (present reflexive)", "notes": "Feel unwell" },
+        { "word": "bolí", "pos": "verb", "english": "hurt/ache (present)", "notes": "Impersonal: bolí mě = it hurts me" },
+        { "word": "hlava", "pos": "noun", "english": "head", "notes": "Body part" },
+        { "word": "břicho", "pos": "noun", "english": "stomach/belly", "notes": "Body part" },
+        { "word": "náhle", "pos": "adverb", "english": "suddenly", "notes": "Time expression" },
+        { "word": "lékárna", "pos": "noun", "english": "pharmacy", "notes": "Place for medicine" },
+        { "word": "lékárnice", "pos": "noun", "english": "pharmacist (feminine)", "notes": "Healthcare worker" },
+        { "word": "pomoc", "pos": "noun", "english": "help/assistance", "notes": "Request for aid" },
+        { "word": "co se stalo", "pos": "phrase", "english": "what happened", "notes": "Inquiry about problem" },
+        { "word": "slabý", "pos": "adjective", "english": "weak", "notes": "Physical state" },
+        { "word": "doktor", "pos": "noun", "english": "doctor", "notes": "Medical professional" },
+        { "word": "lékařská ordinace", "pos": "noun", "english": "doctor's office", "notes": "Medical clinic" },
+        { "word": "chůze", "pos": "noun", "english": "walk (noun)", "notes": "Walking distance" },
+        { "word": "počkejte", "pos": "verb", "english": "wait (imperative formal)", "notes": "Request to wait" },
+        { "word": "za chvíli", "pos": "phrase", "english": "shortly/in a moment", "notes": "Time expression" },
+        { "word": "vyzývá", "pos": "verb", "english": "calls (present)", "notes": "Summons into consultation" },
+        { "word": "vysvětluje", "pos": "verb", "english": "explains (present)", "notes": "Provides explanation" },
+        { "word": "vyšetří", "pos": "verb", "english": "examine (future/perfective)", "notes": "Medical examination" },
+        { "word": "chřipka", "pos": "noun", "english": "flu/influenza", "notes": "Viral illness" },
+        { "word": "odpočívat", "pos": "verb", "english": "rest (infinitive)", "notes": "Recovery advice" },
+        { "word": "tekutin", "pos": "noun", "english": "fluids (genitive plural)", "notes": "Medical recommendation" },
+        { "word": "recept", "pos": "noun", "english": "prescription", "notes": "Medical document" },
+        { "word": "léky", "pos": "noun", "english": "medicine/drugs (plural)", "notes": "Pharmaceutical treatment" },
+        { "word": "dlužím", "pos": "verb", "english": "owe (present)", "notes": "Financial obligation" },
+        { "word": "zdravý", "pos": "adjective", "english": "healthy/well", "notes": "Health state" }
+      ]
+    },
+    {
+      "id": "story-07",
+      "moduleId": "07-shopping",
+      "title": "Nákupy v obchodě",
+      "titleEn": "Shopping at the Store",
+      "difficulty": "intermediate",
+      "estimatedMinutes": 10,
+      "estimatedWords": 175,
+      "description": "Eva shops for clothes at a department store in Prague. She browses, asks questions, tries items on, and negotiates price.",
+      "paragraphs": [
+        {
+          "id": "p1",
+          "czech": "Eva jde do obchodu s oblečením. \"Vítáme vás!\" říká prodavačka. \"Hledáme něco pro sebe?\" \"Ano, hledám svetr,\" říká Eva.",
+          "english": "Eva goes to a clothing store. \"Welcome!\" says the salesperson. \"Are we looking for something for ourselves?\" \"Yes, I am looking for a sweater,\" says Eva.",
+          "sentences": [
+            { "id": "s1", "czech": "Eva jde do obchodu s oblečením.", "english": "Eva goes to a clothing store." },
+            { "id": "s2", "czech": "\"Vítáme vás!\" říká prodavačka.", "english": "\"Welcome!\" says the salesperson." },
+            { "id": "s3", "czech": "\"Hledáme něco pro sebe?\"", "english": "\"Are we looking for something for ourselves?\"" },
+            { "id": "s4", "czech": "\"Ano, hledám svetr,\" říká Eva.", "english": "\"Yes, I am looking for a sweater,\" says Eva." }
+          ]
+        },
+        {
+          "id": "p2",
+          "czech": "Prodavačka ukazuje svetry. \"Máme tady krásné svetry různých barev. Jakou barvu chcete?\"",
+          "english": "The salesperson shows sweaters. \"We have beautiful sweaters here in different colors. What color do you want?\"",
+          "sentences": [
+            { "id": "s5", "czech": "Prodavačka ukazuje svetry.", "english": "The salesperson shows sweaters." },
+            { "id": "s6", "czech": "\"Máme tady krásné svetry různých barev.\"", "english": "\"We have beautiful sweaters here in different colors.\"" },
+            { "id": "s7", "czech": "\"Jakou barvu chcete?\"", "english": "\"What color do you want?\"" }
+          ]
+        },
+        {
+          "id": "p3",
+          "czech": "\"Mám ráda tmavomodrý. Jakou máte velikost?\" ptá se Eva. \"Máme XS, S, M, L, XL,\" odpovídá prodavačka. \"Já mám velikost M,\" říká Eva.",
+          "english": "\"I like dark blue. What size do you have?\" asks Eva. \"We have XS, S, M, L, XL,\" answers the salesperson. \"I wear size M,\" says Eva.",
+          "sentences": [
+            { "id": "s8", "czech": "\"Mám ráda tmavomodrý.\"", "english": "\"I like dark blue.\"" },
+            { "id": "s9", "czech": "\"Jakou máte velikost?\" ptá se Eva.", "english": "\"What size do you have?\" asks Eva." },
+            { "id": "s10", "czech": "\"Máme XS, S, M, L, XL,\" odpovídá prodavačka.", "english": "\"We have XS, S, M, L, XL,\" answers the salesperson." },
+            { "id": "s11", "czech": "\"Já mám velikost M,\" říká Eva.", "english": "\"I wear size M,\" says Eva." }
+          ]
+        },
+        {
+          "id": "p4",
+          "czech": "Prodavačka dává tmavomodrý svetr vel. M. \"Chcete si to vyzkoušet?\" \"Ano, kde je převlékárna?\" \"Tady, doleva,\" říká prodavačka.",
+          "english": "The salesperson gives a dark blue sweater size M. \"Do you want to try it on?\" \"Yes, where is the fitting room?\" \"Here, to the left,\" says the salesperson.",
+          "sentences": [
+            { "id": "s12", "czech": "Prodavačka dává tmavomodrý svetr vel. M.", "english": "The salesperson gives a dark blue sweater size M." },
+            { "id": "s13", "czech": "\"Chcete si to vyzkoušet?\"", "english": "\"Do you want to try it on?\"" },
+            { "id": "s14", "czech": "\"Ano, kde je převlékárna?\"", "english": "\"Yes, where is the fitting room?\"" },
+            { "id": "s15", "czech": "\"Tady, doleva,\" říká prodavačka.", "english": "\"Here, to the left,\" says the salesperson." }
+          ]
+        },
+        {
+          "id": "p5",
+          "czech": "Eva vychází z převlékárny. \"Jak se mi to líbí?\" ptá se. \"Vypadáte úžasně! Barva Vám opravdu sluší,\" říká prodavačka.",
+          "english": "Eva comes out of the fitting room. \"How does it look on me?\" she asks. \"You look amazing! The color really suits you,\" says the salesperson.",
+          "sentences": [
+            { "id": "s16", "czech": "Eva vychází z převlékárny.", "english": "Eva comes out of the fitting room." },
+            { "id": "s17", "czech": "\"Jak se mi to líbí?\" ptá se.", "english": "\"How does it look on me?\" she asks." },
+            { "id": "s18", "czech": "\"Vypadáte úžasně!\"", "english": "\"You look amazing!\"" },
+            { "id": "s19", "czech": "\"Barva Vám opravdu sluší,\" říká prodavačka.", "english": "\"The color really suits you,\" says the salesperson." }
+          ]
+        },
+        {
+          "id": "p6",
+          "czech": "\"Kolik to stojí?\" ptá se Eva. \"599 korun,\" odpovídá prodavačka. \"To je drahé. Máte slevu?\" \"Dnes máme 20 procent slevu!\"",
+          "english": "\"How much does it cost?\" asks Eva. \"599 crowns,\" answers the salesperson. \"That is expensive. Do you have a discount?\" \"Today we have a 20 percent discount!\"",
+          "sentences": [
+            { "id": "s20", "czech": "\"Kolik to stojí?\" ptá se Eva.", "english": "\"How much does it cost?\" asks Eva." },
+            { "id": "s21", "czech": "\"599 korun,\" odpovídá prodavačka.", "english": "\"599 crowns,\" answers the salesperson." },
+            { "id": "s22", "czech": "\"To je drahé.\"", "english": "\"That is expensive.\"" },
+            { "id": "s23", "czech": "\"Máte slevu?\"", "english": "\"Do you have a discount?\"" },
+            { "id": "s24", "czech": "\"Dnes máme 20 procent slevu!\"", "english": "\"Today we have a 20 percent discount!\"" }
+          ]
+        },
+        {
+          "id": "p7",
+          "czech": "\"Skvěle! Beru to,\" říká Eva. \"Jak vám bude placeným? Kartou nebo hotovostí?\" \"Kartou, prosím,\" odpovídá Eva.",
+          "english": "\"Great! I will take it,\" says Eva. \"How will you pay? By card or cash?\" \"By card, please,\" answers Eva.",
+          "sentences": [
+            { "id": "s25", "czech": "\"Skvěle! Beru to,\" říká Eva.", "english": "\"Great! I will take it,\" says Eva." },
+            { "id": "s26", "czech": "\"Jak vám bude placeným?\"", "english": "\"How will you pay?\"" },
+            { "id": "s27", "czech": "\"Kartou nebo hotovostí?\"", "english": "\"By card or cash?\"" },
+            { "id": "s28", "czech": "\"Kartou, prosím,\" odpovídá Eva.", "english": "\"By card, please,\" answers Eva." }
+          ]
+        },
+        {
+          "id": "p8",
+          "czech": "Prodavačka zabalí svetr. \"Tady je vaše nákup. Děkujeme a na viděnou!\" \"Děkuji! Na viděnou!\" říká Eva a jde domů s novým svetrem.",
+          "english": "The salesperson wraps the sweater. \"Here is your purchase. Thank you and goodbye!\" \"Thank you! Goodbye!\" says Eva and goes home with her new sweater.",
+          "sentences": [
+            { "id": "s29", "czech": "Prodavačka zabalí svetr.", "english": "The salesperson wraps the sweater." },
+            { "id": "s30", "czech": "\"Tady je vaše nákup.\"", "english": "\"Here is your purchase.\"" },
+            { "id": "s31", "czech": "\"Děkujeme a na viděnou!\"", "english": "\"Thank you and goodbye!\"" },
+            { "id": "s32", "czech": "\"Děkuji! Na viděnou!\" říká Eva a jde domů s novým svetrem.", "english": "\"Thank you! Goodbye!\" says Eva and goes home with her new sweater." }
+          ]
+        }
+      ],
+      "vocabulary": [
+        { "word": "obchod", "pos": "noun", "english": "store/shop", "notes": "Retail location" },
+        { "word": "oblečením", "pos": "noun", "english": "clothing (instrumental)", "notes": "Type of goods" },
+        { "word": "prodavačka", "pos": "noun", "english": "salesperson (feminine)", "notes": "Retail worker" },
+        { "word": "hledám", "pos": "verb", "english": "look for (present 1st person)", "notes": "Search action" },
+        { "word": "svetr", "pos": "noun", "english": "sweater/jumper", "notes": "Clothing item" },
+        { "word": "ukazuje", "pos": "verb", "english": "show (present)", "notes": "Demonstrate goods" },
+        { "word": "různých", "pos": "adjective", "english": "different/various (genitive plural)", "notes": "Variety descriptor" },
+        { "word": "barva", "pos": "noun", "english": "color", "notes": "Color choice" },
+        { "word": "tmavomodrý", "pos": "adjective", "english": "dark blue", "notes": "Color description" },
+        { "word": "velikost", "pos": "noun", "english": "size", "notes": "Clothing measurement" },
+        { "word": "vyzkoušet", "pos": "verb", "english": "try on (infinitive perfective)", "notes": "Testing garments" },
+        { "word": "převlékárna", "pos": "noun", "english": "fitting/changing room", "notes": "Retail facility" },
+        { "word": "doleva", "pos": "adverb", "english": "to the left", "notes": "Direction indicator" },
+        { "word": "vychází", "pos": "verb", "english": "come out (present)", "notes": "Exit action" },
+        { "word": "líbí", "pos": "verb", "english": "like (present reflexive impersonal)", "notes": "Preference expression" },
+        { "word": "vypadáte", "pos": "verb", "english": "look (present formal)", "notes": "Appearance observation" },
+        { "word": "úžasně", "pos": "adverb", "english": "amazingly/wonderfully", "notes": "Compliment intensifier" },
+        { "word": "sluší", "pos": "verb", "english": "suit/become (present impersonal)", "notes": "Fashion appropriateness" },
+        { "word": "drahé", "pos": "adjective", "english": "expensive", "notes": "Price complaint" },
+        { "word": "slevu", "pos": "noun", "english": "discount (accusative)", "notes": "Price reduction" },
+        { "word": "procent", "pos": "noun", "english": "percent", "notes": "Percentage expression" },
+        { "word": "beru", "pos": "verb", "english": "take/buy (present 1st person)", "notes": "Purchase decision" },
+        { "word": "placeným", "pos": "verb", "english": "paid (past participle)", "notes": "Payment inquiry" },
+        { "word": "kartou", "pos": "noun", "english": "card (instrumental)", "notes": "Payment method" },
+        { "word": "hotovostí", "pos": "noun", "english": "cash (instrumental)", "notes": "Payment method" },
+        { "word": "zabalí", "pos": "verb", "english": "wrap (future perfective)", "notes": "Packaging action" },
+        { "word": "nákup", "pos": "noun", "english": "purchase", "notes": "Merchandise bought" },
+        { "word": "na viděnou", "pos": "phrase", "english": "goodbye (literally: until we see each other)", "notes": "Formal farewell" },
+        { "word": "domů", "pos": "adverb", "english": "home (direction)", "notes": "Destination" }
+      ]
+    },
+    {
+      "id": "story-08",
+      "moduleId": "08-directions",
+      "title": "Cesta do Nerudovy ulice",
+      "titleEn": "Finding Nerudova Street",
+      "difficulty": "upper-intermediate",
+      "estimatedMinutes": 12,
+      "estimatedWords": 210,
+      "description": "Petr helps a lost tourist find Nerudova Street in the old town, giving detailed directions involving landmarks and compass directions.",
+      "paragraphs": [
+        {
+          "id": "p1",
+          "czech": "Petr jde po Staroměstském náměstí. Vidí turista, který vypadá zmatený. \"Prosím, potřebuji pomoc. Hledám Nerudovu ulici,\" říká turista.",
+          "english": "Petr walks across Old Town Square. He sees a tourist who looks confused. \"Please, I need help. I am looking for Nerudova Street,\" says the tourist.",
+          "sentences": [
+            { "id": "s1", "czech": "Petr jde po Staroměstském náměstí.", "english": "Petr walks across Old Town Square." },
+            { "id": "s2", "czech": "Vidí turista, který vypadá zmatený.", "english": "He sees a tourist who looks confused." },
+            { "id": "s3", "czech": "\"Prosím, potřebuji pomoc.\"", "english": "\"Please, I need help.\"" },
+            { "id": "s4", "czech": "\"Hledám Nerudovu ulici,\" říká turista.", "english": "\"I am looking for Nerudova Street,\" says the tourist." }
+          ]
+        },
+        {
+          "id": "p2",
+          "czech": "\"Nerudova ulice? To je pěkné místo!\" říká Petr. \"Není to daleko. Můžu vás tam provést.\" Turista se usmívá. \"Děkuji! To je velmi laskavé.\"",
+          "english": "\"Nerudova Street? That is a nice place!\" says Petr. \"It is not far. I can show you there.\" The tourist smiles. \"Thank you! That is very kind.\"",
+          "sentences": [
+            { "id": "s5", "czech": "\"Nerudova ulice? To je pěkné místo!\" říká Petr.", "english": "\"Nerudova Street? That is a nice place!\" says Petr." },
+            { "id": "s6", "czech": "\"Není to daleko.\"", "english": "\"It is not far.\"" },
+            { "id": "s7", "czech": "\"Můžu vás tam provést.\"", "english": "\"I can show you there.\"" },
+            { "id": "s8", "czech": "Turista se usmívá.", "english": "The tourist smiles." },
+            { "id": "s9", "czech": "\"Děkuji! To je velmi laskavé.\"", "english": "\"Thank you! That is very kind.\"" }
+          ]
+        },
+        {
+          "id": "p3",
+          "czech": "Petr ukazuje cestu. \"Vidíte ten chrám tamtam? Chrám sv. Mikuláše?\" \"Ano, vidím ho,\" odpovídá turista. \"Jděte na sever, přímo k chrámu.\"",
+          "english": "Petr shows the way. \"Do you see that church over there? St. Nicholas Church?\" \"Yes, I see it,\" answers the tourist. \"Go north, straight to the church.\"",
+          "sentences": [
+            { "id": "s10", "czech": "Petr ukazuje cestu.", "english": "Petr shows the way." },
+            { "id": "s11", "czech": "\"Vidíte ten chrám tamtam?\"", "english": "\"Do you see that church over there?\"" },
+            { "id": "s12", "czech": "\"Chrám sv. Mikuláše?\"", "english": "\"St. Nicholas Church?\"" },
+            { "id": "s13", "czech": "\"Ano, vidím ho,\" odpovídá turista.", "english": "\"Yes, I see it,\" answers the tourist." },
+            { "id": "s14", "czech": "\"Jděte na sever, přímo k chrámu.\"", "english": "\"Go north, straight to the church.\"" }
+          ]
+        },
+        {
+          "id": "p4",
+          "czech": "\"Když budete u chrámu, otočte se doprava. Uvidíte malou uličku. To je Nerudova,\" říká Petr. \"Ulička jde strmě nahoru. Vidíte? Je to tam.\"",
+          "english": "\"When you are at the church, turn right. You will see a small street. That is Nerudova,\" says Petr. \"The street goes steeply upward. Do you see? It is there.\"",
+          "sentences": [
+            { "id": "s15", "czech": "\"Když budete u chrámu, otočte se doprava.\"", "english": "\"When you are at the church, turn right.\"" },
+            { "id": "s16", "czech": "\"Uvidíte malou uličku.\"", "english": "\"You will see a small street.\"" },
+            { "id": "s17", "czech": "\"To je Nerudova,\" říká Petr.", "english": "\"That is Nerudova,\" says Petr." },
+            { "id": "s18", "czech": "\"Ulička jde strmě nahoru.\"", "english": "\"The street goes steeply upward.\"" },
+            { "id": "s19", "czech": "\"Vidíte? Je to tam.\"", "english": "\"Do you see? It is there.\"" }
+          ]
+        },
+        {
+          "id": "p5",
+          "czech": "Turista se dívá směrem, kterým Petr ukazuje. \"Ano! Vidím to! Děkuji!\" \"Není zač. Když se budete vracet, pojďte přes most. Most je na jihu, vedle nás.\"",
+          "english": "The tourist looks in the direction Petr is pointing. \"Yes! I see it! Thank you!\" \"You are welcome. When you return, go over the bridge. The bridge is to the south, next to us.\"",
+          "sentences": [
+            { "id": "s20", "czech": "Turista se dívá směrem, kterým Petr ukazuje.", "english": "The tourist looks in the direction Petr is pointing." },
+            { "id": "s21", "czech": "\"Ano! Vidím to! Děkuji!\"", "english": "\"Yes! I see it! Thank you!\"" },
+            { "id": "s22", "czech": "\"Není zač.\"", "english": "\"You are welcome.\"" },
+            { "id": "s23", "czech": "\"Když se budete vracet, pojďte přes most.\"", "english": "\"When you return, go over the bridge.\"" },
+            { "id": "s24", "czech": "\"Most je na jihu, vedle nás.\"", "english": "\"The bridge is to the south, next to us.\"" }
+          ]
+        },
+        {
+          "id": "p6",
+          "czech": "\"Chrámu je na západě od Nerudovy. Takže když budete na Nerudově a vraciíte se, půjdete na západ k chrámu a pak na jih k mostu.\"",
+          "english": "\"The church is to the west of Nerudova. So when you are on Nerudova and return, you will go west to the church and then south to the bridge.\"",
+          "sentences": [
+            { "id": "s25", "czech": "\"Chrámu je na západě od Nerudovy.\"", "english": "\"The church is to the west of Nerudova.\"" },
+            { "id": "s26", "czech": "\"Takže když budete na Nerudově a vraciíte se, půjdete na západ k chrámu.\"", "english": "\"So when you are on Nerudova and return, you will go west to the church.\"" },
+            { "id": "s27", "czech": "\"A pak na jih k mostu.\"", "english": "\"And then south to the bridge.\"" }
+          ]
+        },
+        {
+          "id": "p7",
+          "czech": "Turista si píše poznámky. \"Sever - chrám - Nerudova. Západ - chrám. Jih - most. Rozumím!\" \"Skvěle! Užijte si Nerudovu ulici. Je to opravdu krásné.\"",
+          "english": "The tourist writes notes. \"North - church - Nerudova. West - church. South - bridge. I understand!\" \"Great! Enjoy Nerudova Street. It is really beautiful.\"",
+          "sentences": [
+            { "id": "s28", "czech": "Turista si píše poznámky.", "english": "The tourist writes notes." },
+            { "id": "s29", "czech": "\"Sever - chrám - Nerudova. Západ - chrám. Jih - most. Rozumím!\"", "english": "\"North - church - Nerudova. West - church. South - bridge. I understand!\"" },
+            { "id": "s30", "czech": "\"Skvěle! Užijte si Nerudovu ulici.\"", "english": "\"Great! Enjoy Nerudova Street.\"" },
+            { "id": "s31", "czech": "\"Je to opravdu krásné.\"", "english": "\"It is really beautiful.\"" }
+          ]
+        },
+        {
+          "id": "p8",
+          "czech": "Turista si podává ruku. \"Děkuji vám moc! Jste velmi laskavý.\" Petr se usmívá. \"Hodně štěstí! Na viděnou!\" Turista jde směrem k Nerudově ulici a Petr jde domů spokojený.",
+          "english": "The tourist shakes his hand. \"Thank you so much! You are very kind.\" Petr smiles. \"Good luck! Goodbye!\" The tourist goes toward Nerudova Street and Petr goes home satisfied.",
+          "sentences": [
+            { "id": "s32", "czech": "Turista si podává ruku.", "english": "The tourist shakes his hand." },
+            { "id": "s33", "czech": "\"Děkuji vám moc!\"", "english": "\"Thank you so much!\"" },
+            { "id": "s34", "czech": "\"Jste velmi laskavý.\"", "english": "\"You are very kind.\"" },
+            { "id": "s35", "czech": "Petr se usmívá.", "english": "Petr smiles." },
+            { "id": "s36", "czech": "\"Hodně štěstí! Na viděnou!\"", "english": "\"Good luck! Goodbye!\"" },
+            { "id": "s37", "czech": "Turista jde směrem k Nerudově ulici a Petr jde domů spokojený.", "english": "The tourist goes toward Nerudova Street and Petr goes home satisfied." }
+          ]
+        }
+      ],
+      "vocabulary": [
+        { "word": "Staroměstské náměstí", "pos": "noun", "english": "Old Town Square", "notes": "Famous Prague landmark" },
+        { "word": "zmatený", "pos": "adjective", "english": "confused", "notes": "Emotional state" },
+        { "word": "Nerudova ulice", "pos": "noun", "english": "Nerudova Street", "notes": "Historic Prague location" },
+        { "word": "pěkné", "pos": "adjective", "english": "nice/pretty", "notes": "Positive descriptor" },
+        { "word": "místo", "pos": "noun", "english": "place", "notes": "Location" },
+        { "word": "provést", "pos": "verb", "english": "show/guide (infinitive perfective)", "notes": "Direction assistance" },
+        { "word": "laskavé", "pos": "adjective", "english": "kind", "notes": "Expression of gratitude" },
+        { "word": "chrám", "pos": "noun", "english": "church/cathedral", "notes": "Religious building" },
+        { "word": "sv. Mikuláše", "pos": "noun", "english": "St. Nicholas (genitive)", "notes": "Famous Prague church" },
+        { "word": "sever", "pos": "noun", "english": "north", "notes": "Cardinal direction" },
+        { "word": "přímo", "pos": "adverb", "english": "straight", "notes": "Direction descriptor" },
+        { "word": "otočte", "pos": "verb", "english": "turn (imperative)", "notes": "Direction instruction" },
+        { "word": "doprava", "pos": "adverb", "english": "to the right", "notes": "Direction indicator" },
+        { "word": "ulička", "pos": "noun", "english": "small street/lane", "notes": "Street type" },
+        { "word": "strmě", "pos": "adverb", "english": "steeply", "notes": "Slope descriptor" },
+        { "word": "nahoru", "pos": "adverb", "english": "upward", "notes": "Direction" },
+        { "word": "dívá", "pos": "verb", "english": "looks/gazes (present)", "notes": "Visual action" },
+        { "word": "směr", "pos": "noun", "english": "direction", "notes": "Orientation" },
+        { "word": "není zač", "pos": "phrase", "english": "you are welcome", "notes": "Polite response" },
+        { "word": "vracet", "pos": "verb", "english": "return (infinitive imperfective)", "notes": "Going back" },
+        { "word": "most", "pos": "noun", "english": "bridge", "notes": "Prague landmark" },
+        { "word": "jih", "pos": "noun", "english": "south", "notes": "Cardinal direction" },
+        { "word": "západ", "pos": "noun", "english": "west", "notes": "Cardinal direction" },
+        { "word": "poznámky", "pos": "noun", "english": "notes (plural)", "notes": "Written information" },
+        { "word": "rozumím", "pos": "verb", "english": "understand (present 1st person)", "notes": "Comprehension" },
+        { "word": "užijte si", "pos": "verb", "english": "enjoy (imperative reflexive)", "notes": "Wish for pleasure" },
+        { "word": "podává", "pos": "verb", "english": "shakes (handshake)", "notes": "Greeting gesture" },
+        { "word": "hodně", "pos": "adverb", "english": "much/a lot", "notes": "Intensity" },
+        { "word": "štěstí", "pos": "noun", "english": "luck/happiness", "notes": "Well-wishing phrase" },
+        { "word": "spokojený", "pos": "adjective", "english": "satisfied/happy", "notes": "Emotional state" }
+      ]
+    }
+  ]
+}

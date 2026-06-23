@@ -4,7 +4,10 @@ import MobileNav from './MobileNav';
 
 export default function RootLayout() {
   const location = useLocation();
-  const showNav = !location.pathname.includes('/lesson/');
+  // Hide bottom nav on lesson pages and story reader pages
+  const showNav =
+    !location.pathname.includes('/lesson/') &&
+    !location.pathname.match(/\/stories\/[^/]+$/);
 
   return (
     <div className="min-h-dvh flex flex-col bg-gray-50 dark:bg-gray-950">

@@ -9,6 +9,8 @@ import QuizPage from '@/components/practice/QuizPage';
 import AchievementsPage from '@/components/achievements/AchievementsPage';
 import LeaderboardPage from '@/components/achievements/LeaderboardPage';
 import SettingsPage from '@/components/settings/SettingsPage';
+import StoriesPage from '@/components/stories/StoriesPage';
+import StoryReader from '@/components/stories/StoryReader';
 
 export const router = createBrowserRouter(
   [
@@ -19,6 +21,8 @@ export const router = createBrowserRouter(
         { index: true, element: <HomePage /> },
         { path: 'module/:moduleId', element: <ModulePage /> },
         { path: 'module/:moduleId/lesson/:lessonId', element: <LessonPage /> },
+        { path: 'stories', element: <StoriesPage /> },
+        { path: 'stories/:storyId', element: <StoryReader /> },
         { path: 'practice/flashcards', element: <FlashcardsPage /> },
         { path: 'practice/due-today', element: <FlashcardQueuePage /> },
         { path: 'practice/quiz', element: <QuizPage /> },

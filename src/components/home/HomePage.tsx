@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Calendar, ArrowRight } from 'lucide-react';
+import { Calendar, ArrowRight, BookOpen } from 'lucide-react';
 import { MODULE_LIST } from '@/lib/constants';
 import { useProgress } from '@/context/ProgressContext';
 import { getLevel, getXpForNextLevel } from '@/types/gamification';
@@ -7,6 +7,7 @@ import ModuleCard from './ModuleCard';
 import StreakDisplay from './StreakDisplay';
 import XpBar from './XpBar';
 import { todayStr } from '@/lib/utils';
+import storiesData from '@/data/stories.json';
 
 export default function HomePage() {
   const { progress } = useProgress();
@@ -70,6 +71,25 @@ export default function HomePage() {
           <ArrowRight className="w-4 h-4 text-orange-400 group-hover:translate-x-0.5 transition-transform" />
         </Link>
       )}
+
+      {/* Stories quick-access */}
+      <Link
+        to="/stories"
+        className="flex items-center gap-3 bg-gradient-to-r from-primary-50 to-blue-50 dark:from-primary-900/20 dark:to-blue-900/20 border border-primary-200 dark:border-primary-800 rounded-2xl p-4 hover:shadow-md transition-all group"
+      >
+        <div className="flex-shrink-0 w-10 h-10 rounded-full bg-primary-100 dark:bg-primary-800/30 flex items-center justify-center">
+          <BookOpen className="w-5 h-5 text-primary-600 dark:text-primary-400" />
+        </div>
+        <div className="flex-1">
+          <p className="text-sm font-semibold text-gray-900 dark:text-white">
+            📖 Read Stories
+          </p>
+          <p className="text-xs text-gray-500 dark:text-gray-400">
+            {Object.values(progress.stories).filter((s) => s.status === 'completed').length} of {storiesData.stories.length} stories read — practice Czech through narratives
+          </p>
+        </div>
+        <ArrowRight className="w-4 h-4 text-primary-400 group-hover:translate-x-0.5 transition-transform" />
+      </Link>
 
       {/* Module grid */}
       <div>

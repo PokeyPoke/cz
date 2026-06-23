@@ -71,6 +71,21 @@ export function GamificationProvider({ children }: { children: ReactNode }) {
         case 'total_practice_time':
           met = false; // Not tracking time yet
           break;
+        case 'complete_all_stories': {
+          const completedStories = Object.values(progress.stories).filter((s) => s.status === 'completed').length;
+          met = completedStories >= c.count;
+          break;
+        }
+        case 'total_story_reads': {
+          const totalReads = Object.values(progress.stories).reduce((sum, s) => sum + s.readCount, 0);
+          met = totalReads >= c.count;
+          break;
+        }
+        case 'high_comprehension_count': {
+          const highComp = Object.values(progress.stories).filter((s) => s.comprehensionScore >= 80).length;
+          met = highComp >= c.count;
+          break;
+        }
       }
       if (met) {
         unlocked.push(achievement);
@@ -88,7 +103,7 @@ export function GamificationProvider({ children }: { children: ReactNode }) {
   // Check achievements on progress change
   useEffect(() => {
     checkAchievements();
-  }, [progress.xp, progress.lessons, progress.modules]);
+  }, [progress.xp, progress.lessons, progress.modules, progress.stories]);
 
   const dismissNewUnlock = useCallback((id: string) => {
     setNewlyUnlocked((prev) => prev.filter((a) => a.id !== id));

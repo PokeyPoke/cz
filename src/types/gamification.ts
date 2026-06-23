@@ -16,7 +16,10 @@ export type AchievementCondition =
   | { type: 'total_xp'; amount: number }
   | { type: 'complete_module'; moduleId: string }
   | { type: 'perfect_lesson'; count: number }
-  | { type: 'total_practice_time'; minutes: number };
+  | { type: 'total_practice_time'; minutes: number }
+  | { type: 'complete_all_stories'; count: number }
+  | { type: 'total_story_reads'; count: number }
+  | { type: 'high_comprehension_count'; count: number };
 
 export const LEVEL_THRESHOLDS: number[] = [
   0,

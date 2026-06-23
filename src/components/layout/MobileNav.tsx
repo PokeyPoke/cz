@@ -1,8 +1,9 @@
 import { NavLink } from 'react-router-dom';
-import { Home, BookOpen, Trophy, User } from 'lucide-react';
+import { Home, BookOpen, Trophy, User, BookText } from 'lucide-react';
 
 const tabs = [
   { to: '/', icon: Home, label: 'Learn' },
+  { to: '/stories', icon: BookText, label: 'Stories' },
   { to: '/practice/flashcards', icon: BookOpen, label: 'Practice' },
   { to: '/achievements', icon: Trophy, label: 'Badges' },
   { to: '/settings', icon: User, label: 'You' },

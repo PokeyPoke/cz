@@ -17,6 +17,7 @@ function getDefaultProgress(): UserProgress {
     currentLessonId: null,
     modules: {},
     lessons: {},
+    stories: {},
     flashcards: {},
     badges: [],
     settings: {
@@ -53,6 +54,8 @@ type ProgressAction =
   | { type: 'SET_CURRENT'; moduleId: string | null; lessonId: string | null }
   | { type: 'DAILY_LOGIN' }
   | { type: 'DAILY_GOAL_COMPLETE' }
+  | { type: 'START_STORY'; storyId: string }
+  | { type: 'COMPLETE_STORY'; storyId: string; comprehensionScore: number }
   | { type: 'UPDATE_FLASHCARD'; cardId: string; moduleId: string; quality: number }
   | { type: 'UPDATE_SETTINGS'; settings: Partial<UserProgress['settings']> }
   | { type: 'SYNC_FROM_REMOTE'; progress: UserProgress };
@@ -156,6 +159,41 @@ function reducer(state: UserProgress, action: ProgressAction): UserProgress {
         dailyGoalComplete: true,
         xp: state.xp + XP_REWARDS.dailyGoalMet,
       };
+    case 'START_STORY': {
+      const story = state.stories[action.storyId];
+      return {
+        ...state,
+        stories: {
+          ...state.stories,
+          [action.storyId]: {
+            storyId: action.storyId,
+            status: 'reading' as const,
+            lastReadAt: new Date().toISOString(),
+            comprehensionScore: story?.comprehensionScore ?? 0,
+            readCount: (story?.readCount ?? 0) + 1,
+          },
+        },
+      };
+    }
+    case 'COMPLETE_STORY': {
+      const story = state.stories[action.storyId];
+      const comprehensionBonus = action.comprehensionScore >= 80 ? XP_REWARDS.storyComprehensionBonus : 0;
+      const totalXp = XP_REWARDS.storyComplete + comprehensionBonus;
+      return {
+        ...state,
+        xp: state.xp + totalXp,
+        stories: {
+          ...state.stories,
+          [action.storyId]: {
+            storyId: action.storyId,
+            status: 'completed' as const,
+            lastReadAt: new Date().toISOString(),
+            comprehensionScore: Math.max(story?.comprehensionScore ?? 0, action.comprehensionScore),
+            readCount: story?.readCount ?? 1,
+          },
+        },
+      };
+    }
     case 'UPDATE_FLASHCARD': {
       const card = state.flashcards[action.cardId];
       let easeFactor = 2.5;
@@ -216,6 +254,10 @@ interface ProgressContextType {
   isStepCompleted: (lessonId: string, stepIndex: number) => boolean;
   isLessonCompleted: (lessonId: string) => boolean;
   getModuleProgress: (moduleId: string) => ModuleProgress | null;
+  startStory: (storyId: string) => void;
+  completeStory: (storyId: string, comprehensionScore: number) => void;
+  getStoryProgress: (storyId: string) => import('@/types/progress').StoryProgressState | null;
+  isStoryCompleted: (storyId: string) => boolean;
 }
 
 const ProgressContext = createContext<ProgressContextType | null>(null);
@@ -283,6 +325,28 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
     [progress.modules],
   );
 
+  const startStory = useCallback((storyId: string) => {
+    dispatch({ type: 'START_STORY', storyId });
+  }, []);
+
+  const completeStory = useCallback((storyId: string, comprehensionScore: number) => {
+    dispatch({ type: 'COMPLETE_STORY', storyId, comprehensionScore });
+  }, []);
+
+  const getStoryProgress = useCallback(
+    (storyId: string) => {
+      return progress.stories[storyId] || null;
+    },
+    [progress.stories],
+  );
+
+  const isStoryCompleted = useCallback(
+    (storyId: string) => {
+      return progress.stories[storyId]?.status === 'completed';
+    },
+    [progress.stories],
+  );
+
   return (
     <ProgressContext.Provider
       value={{
@@ -293,6 +357,10 @@ export function ProgressProvider({ children }: { children: ReactNode }) {
         isStepCompleted,
         isLessonCompleted,
         getModuleProgress,
+        startStory,
+        completeStory,
+        getStoryProgress,
+        isStoryCompleted,
       }}
     >
       {children}
