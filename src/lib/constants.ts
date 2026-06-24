@@ -13,6 +13,8 @@ export const XP_REWARDS = {
   dailyGoalMet: 30,
   storyComplete: 30,
   storyComprehensionBonus: 50,
+  ebookWordsPerXp: 100, // 1 XP per 100 words read
+  ebookComplete: 50,
   streakMilestone3: 50,
   streakMilestone7: 100,
   streakMilestone14: 200,
@@ -181,6 +183,26 @@ export const ACHIEVEMENTS: Achievement[] = [
     condition: { type: 'high_comprehension_count', count: 5 },
     xpReward: 200,
     hidden: true,
+  },
+  {
+    id: 'bookworm',
+    title: 'Knihomol',
+    titleEn: 'Bookworm',
+    description: 'Complete reading 1 full eBook',
+    icon: '📖',
+    category: 'mastery',
+    condition: { type: 'complete_all_ebooks', count: 1 },
+    xpReward: 100,
+  },
+  {
+    id: 'speed-reader',
+    title: 'Rychlý čtenář',
+    titleEn: 'Speed Reader',
+    description: 'Read 10,000+ words across all eBooks',
+    icon: '⚡',
+    category: 'mastery',
+    condition: { type: 'total_ebook_words', count: 10000 },
+    xpReward: 250,
   },
 ];
 

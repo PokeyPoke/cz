@@ -86,6 +86,16 @@ export function GamificationProvider({ children }: { children: ReactNode }) {
           met = highComp >= c.count;
           break;
         }
+        case 'complete_all_ebooks': {
+          const completedEbooks = Object.values(progress.ebooks).filter((e) => e.completed).length;
+          met = completedEbooks >= c.count;
+          break;
+        }
+        case 'total_ebook_words': {
+          const totalWords = Object.values(progress.ebooks).reduce((sum, e) => sum + e.wordsRead, 0);
+          met = totalWords >= c.count;
+          break;
+        }
       }
       if (met) {
         unlocked.push(achievement);
@@ -103,7 +113,7 @@ export function GamificationProvider({ children }: { children: ReactNode }) {
   // Check achievements on progress change
   useEffect(() => {
     checkAchievements();
-  }, [progress.xp, progress.lessons, progress.modules, progress.stories]);
+  }, [progress.xp, progress.lessons, progress.modules, progress.stories, progress.ebooks]);
 
   const dismissNewUnlock = useCallback((id: string) => {
     setNewlyUnlocked((prev) => prev.filter((a) => a.id !== id));

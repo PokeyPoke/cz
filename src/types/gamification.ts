@@ -19,7 +19,9 @@ export type AchievementCondition =
   | { type: 'total_practice_time'; minutes: number }
   | { type: 'complete_all_stories'; count: number }
   | { type: 'total_story_reads'; count: number }
-  | { type: 'high_comprehension_count'; count: number };
+  | { type: 'high_comprehension_count'; count: number }
+  | { type: 'complete_all_ebooks'; count: number }
+  | { type: 'total_ebook_words'; count: number };
 
 export const LEVEL_THRESHOLDS: number[] = [
   0,

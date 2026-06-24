@@ -18,6 +18,7 @@ function getDefaultProgress(): UserProgress {
     modules: {},
     lessons: {},
     stories: {},
+    ebooks: {},
     flashcards: {},
     badges: [],
     settings: {
@@ -56,6 +57,10 @@ type ProgressAction =
   | { type: 'DAILY_GOAL_COMPLETE' }
   | { type: 'START_STORY'; storyId: string }
   | { type: 'COMPLETE_STORY'; storyId: string; comprehensionScore: number }
+  | { type: 'ADD_EBOOK'; bookId: string; title: string; wordCount: number }
+  | { type: 'UPDATE_EBOOK_PROGRESS'; bookId: string; progressPercent: number }
+  | { type: 'COMPLETE_EBOOK'; bookId: string; wordCount: number }
+  | { type: 'DELETE_EBOOK'; bookId: string }
   | { type: 'UPDATE_FLASHCARD'; cardId: string; moduleId: string; quality: number }
   | { type: 'UPDATE_SETTINGS'; settings: Partial<UserProgress['settings']> }
   | { type: 'SYNC_FROM_REMOTE'; progress: UserProgress };
@@ -193,6 +198,66 @@ function reducer(state: UserProgress, action: ProgressAction): UserProgress {
           },
         },
       };
+    }
+    case 'ADD_EBOOK':
+      return {
+        ...state,
+        ebooks: {
+          ...state.ebooks,
+          [action.bookId]: {
+            bookId: action.bookId,
+            title: action.title,
+            progressPercent: 0,
+            currentWordIndex: 0,
+            wordsRead: 0,
+            lastReadAt: new Date().toISOString(),
+            completed: false,
+            completedAt: null,
+          },
+        },
+      };
+    case 'UPDATE_EBOOK_PROGRESS': {
+      const ebook = state.ebooks[action.bookId];
+      return {
+        ...state,
+        ebooks: {
+          ...state.ebooks,
+          [action.bookId]: {
+            bookId: action.bookId,
+            title: ebook?.title ?? '',
+            progressPercent: action.progressPercent,
+            currentWordIndex: ebook?.currentWordIndex ?? 0,
+            wordsRead: ebook?.wordsRead ?? 0,
+            lastReadAt: new Date().toISOString(),
+            completed: action.progressPercent >= 100,
+            completedAt: action.progressPercent >= 100 ? new Date().toISOString() : ebook?.completedAt ?? null,
+          },
+        },
+      };
+    }
+    case 'COMPLETE_EBOOK': {
+      const ebook = state.ebooks[action.bookId];
+      return {
+        ...state,
+        xp: state.xp + XP_REWARDS.ebookComplete,
+        ebooks: {
+          ...state.ebooks,
+          [action.bookId]: {
+            bookId: action.bookId,
+            title: ebook?.title ?? '',
+            progressPercent: 100,
+            currentWordIndex: ebook?.currentWordIndex ?? 0,
+            wordsRead: action.wordCount,
+            lastReadAt: new Date().toISOString(),
+            completed: true,
+            completedAt: new Date().toISOString(),
+          },
+        },
+      };
+    }
+    case 'DELETE_EBOOK': {
+      const { [action.bookId]: _, ...restEbooks } = state.ebooks;
+      return { ...state, ebooks: restEbooks };
     }
     case 'UPDATE_FLASHCARD': {
       const card = state.flashcards[action.cardId];

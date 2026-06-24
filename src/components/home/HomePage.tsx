@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Calendar, ArrowRight, BookOpen } from 'lucide-react';
+import { Calendar, ArrowRight, BookOpen, Library } from 'lucide-react';
 import { MODULE_LIST } from '@/lib/constants';
 import { useProgress } from '@/context/ProgressContext';
 import { getLevel, getXpForNextLevel } from '@/types/gamification';
@@ -89,6 +89,25 @@ export default function HomePage() {
           </p>
         </div>
         <ArrowRight className="w-4 h-4 text-primary-400 group-hover:translate-x-0.5 transition-transform" />
+      </Link>
+
+      {/* eBooks quick-access */}
+      <Link
+        to="/ebooks"
+        className="flex items-center gap-3 bg-gradient-to-r from-amber-50 to-yellow-50 dark:from-amber-900/20 dark:to-yellow-900/20 border border-amber-200 dark:border-amber-800 rounded-2xl p-4 hover:shadow-md transition-all group"
+      >
+        <div className="flex-shrink-0 w-10 h-10 rounded-full bg-amber-100 dark:bg-amber-800/30 flex items-center justify-center">
+          <Library className="w-5 h-5 text-amber-600 dark:text-amber-400" />
+        </div>
+        <div className="flex-1">
+          <p className="text-sm font-semibold text-gray-900 dark:text-white">
+            📚 My eBooks
+          </p>
+          <p className="text-xs text-gray-500 dark:text-gray-400">
+            {Object.values(progress.ebooks).filter((e) => e.completed).length} completed — upload Czech books & read with word-by-word TTS
+          </p>
+        </div>
+        <ArrowRight className="w-4 h-4 text-amber-400 group-hover:translate-x-0.5 transition-transform" />
       </Link>
 
       {/* Module grid */}

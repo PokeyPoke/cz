@@ -11,6 +11,8 @@ import LeaderboardPage from '@/components/achievements/LeaderboardPage';
 import SettingsPage from '@/components/settings/SettingsPage';
 import StoriesPage from '@/components/stories/StoriesPage';
 import StoryReader from '@/components/stories/StoryReader';
+import EbooksPage from '@/components/ebooks/EbooksPage';
+import EbookReader from '@/components/ebooks/EbookReader';
 
 export const router = createBrowserRouter(
   [
@@ -23,6 +25,8 @@ export const router = createBrowserRouter(
         { path: 'module/:moduleId/lesson/:lessonId', element: <LessonPage /> },
         { path: 'stories', element: <StoriesPage /> },
         { path: 'stories/:storyId', element: <StoryReader /> },
+        { path: 'ebooks', element: <EbooksPage /> },
+        { path: 'ebooks/:bookId', element: <EbookReader /> },
         { path: 'practice/flashcards', element: <FlashcardsPage /> },
         { path: 'practice/due-today', element: <FlashcardQueuePage /> },
         { path: 'practice/quiz', element: <QuizPage /> },

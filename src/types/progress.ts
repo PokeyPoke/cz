@@ -19,6 +19,7 @@ export interface UserProgress {
   modules: Record<string, ModuleProgress>;
   lessons: Record<string, LessonProgress>;
   stories: Record<string, StoryProgressState>;
+  ebooks: Record<string, EbookProgressState>;
   flashcards: Record<string, FlashcardReviewState>;
   badges: string[];
   settings: UserSettings;
@@ -26,6 +27,9 @@ export interface UserProgress {
   lastSyncedAt?: string;
 }
 
+import type { EbookProgressState } from './ebook';
+
+export type { EbookProgressState };
 export interface ModuleProgress {
   moduleId: string;
   status: 'locked' | 'available' | 'in_progress' | 'completed';
